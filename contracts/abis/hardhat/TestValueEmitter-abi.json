@@ -1,0 +1,1221 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes1",
+        "name": "bytes1val",
+        "type": "bytes1"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes2",
+        "name": "bytes2val",
+        "type": "bytes2"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes3",
+        "name": "bytes3val",
+        "type": "bytes3"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes4",
+        "name": "bytes4val",
+        "type": "bytes4"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes5",
+        "name": "bytes5val",
+        "type": "bytes5"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes6",
+        "name": "bytes6val",
+        "type": "bytes6"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes7",
+        "name": "bytes7val",
+        "type": "bytes7"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes8",
+        "name": "bytes8val",
+        "type": "bytes8"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes9",
+        "name": "bytes9val",
+        "type": "bytes9"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes10",
+        "name": "bytes10val",
+        "type": "bytes10"
+      }
+    ],
+    "name": "BytesEvent1",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes11",
+        "name": "bytes11val",
+        "type": "bytes11"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes12",
+        "name": "bytes12val",
+        "type": "bytes12"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes13",
+        "name": "bytes13val",
+        "type": "bytes13"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes14",
+        "name": "bytes14val",
+        "type": "bytes14"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes15",
+        "name": "bytes15val",
+        "type": "bytes15"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes16",
+        "name": "bytes16val",
+        "type": "bytes16"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes17",
+        "name": "bytes17val",
+        "type": "bytes17"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes18",
+        "name": "bytes18val",
+        "type": "bytes18"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes19",
+        "name": "bytes19val",
+        "type": "bytes19"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes20",
+        "name": "bytes20val",
+        "type": "bytes20"
+      }
+    ],
+    "name": "BytesEvent2",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes21",
+        "name": "bytes21val",
+        "type": "bytes21"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes22",
+        "name": "bytes22val",
+        "type": "bytes22"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes23",
+        "name": "bytes23val",
+        "type": "bytes23"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes24",
+        "name": "bytes24val",
+        "type": "bytes24"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes25",
+        "name": "bytes25val",
+        "type": "bytes25"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes26",
+        "name": "bytes26val",
+        "type": "bytes26"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes27",
+        "name": "bytes27val",
+        "type": "bytes27"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes28",
+        "name": "bytes28val",
+        "type": "bytes28"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes29",
+        "name": "bytes29val",
+        "type": "bytes29"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes30",
+        "name": "bytes30val",
+        "type": "bytes30"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes31",
+        "name": "bytes31val",
+        "type": "bytes31"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes32",
+        "name": "bytes32val",
+        "type": "bytes32"
+      }
+    ],
+    "name": "BytesEvent3",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int8",
+        "name": "int8val",
+        "type": "int8"
+      },
+      {
+        "indexed": false,
+        "internalType": "int16",
+        "name": "int16val",
+        "type": "int16"
+      },
+      {
+        "indexed": false,
+        "internalType": "int24",
+        "name": "int24val",
+        "type": "int24"
+      },
+      {
+        "indexed": false,
+        "internalType": "int32",
+        "name": "int32val",
+        "type": "int32"
+      },
+      {
+        "indexed": false,
+        "internalType": "int40",
+        "name": "int40val",
+        "type": "int40"
+      },
+      {
+        "indexed": false,
+        "internalType": "int48",
+        "name": "int48val",
+        "type": "int48"
+      },
+      {
+        "indexed": false,
+        "internalType": "int56",
+        "name": "int56val",
+        "type": "int56"
+      },
+      {
+        "indexed": false,
+        "internalType": "int64",
+        "name": "int64val",
+        "type": "int64"
+      },
+      {
+        "indexed": false,
+        "internalType": "int72",
+        "name": "int72val",
+        "type": "int72"
+      },
+      {
+        "indexed": false,
+        "internalType": "int80",
+        "name": "int80val",
+        "type": "int80"
+      }
+    ],
+    "name": "IntEvent1",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int88",
+        "name": "int88val",
+        "type": "int88"
+      },
+      {
+        "indexed": false,
+        "internalType": "int96",
+        "name": "int96val",
+        "type": "int96"
+      },
+      {
+        "indexed": false,
+        "internalType": "int104",
+        "name": "int104val",
+        "type": "int104"
+      },
+      {
+        "indexed": false,
+        "internalType": "int112",
+        "name": "int112val",
+        "type": "int112"
+      },
+      {
+        "indexed": false,
+        "internalType": "int128",
+        "name": "int120val",
+        "type": "int128"
+      },
+      {
+        "indexed": false,
+        "internalType": "int128",
+        "name": "int128val",
+        "type": "int128"
+      },
+      {
+        "indexed": false,
+        "internalType": "int136",
+        "name": "int136val",
+        "type": "int136"
+      },
+      {
+        "indexed": false,
+        "internalType": "int144",
+        "name": "int144val",
+        "type": "int144"
+      },
+      {
+        "indexed": false,
+        "internalType": "int152",
+        "name": "int152val",
+        "type": "int152"
+      },
+      {
+        "indexed": false,
+        "internalType": "int160",
+        "name": "int160val",
+        "type": "int160"
+      }
+    ],
+    "name": "IntEvent2",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int168",
+        "name": "int168val",
+        "type": "int168"
+      },
+      {
+        "indexed": false,
+        "internalType": "int176",
+        "name": "int176val",
+        "type": "int176"
+      },
+      {
+        "indexed": false,
+        "internalType": "int184",
+        "name": "int184val",
+        "type": "int184"
+      },
+      {
+        "indexed": false,
+        "internalType": "int192",
+        "name": "int192val",
+        "type": "int192"
+      },
+      {
+        "indexed": false,
+        "internalType": "int200",
+        "name": "int200val",
+        "type": "int200"
+      },
+      {
+        "indexed": false,
+        "internalType": "int208",
+        "name": "int208val",
+        "type": "int208"
+      },
+      {
+        "indexed": false,
+        "internalType": "int216",
+        "name": "int216val",
+        "type": "int216"
+      },
+      {
+        "indexed": false,
+        "internalType": "int224",
+        "name": "int224val",
+        "type": "int224"
+      },
+      {
+        "indexed": false,
+        "internalType": "int248",
+        "name": "int232val",
+        "type": "int248"
+      },
+      {
+        "indexed": false,
+        "internalType": "int248",
+        "name": "int240val",
+        "type": "int248"
+      },
+      {
+        "indexed": false,
+        "internalType": "int248",
+        "name": "int248val",
+        "type": "int248"
+      },
+      {
+        "indexed": false,
+        "internalType": "int256",
+        "name": "int256val",
+        "type": "int256"
+      }
+    ],
+    "name": "IntEvent3",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "boolVal",
+        "type": "bool"
+      },
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "stringVal",
+        "type": "string"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "bytesVal",
+        "type": "bytes"
+      }
+    ],
+    "name": "MixedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint8",
+        "name": "uint8val",
+        "type": "uint8"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint16",
+        "name": "uint16val",
+        "type": "uint16"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint24",
+        "name": "uint24val",
+        "type": "uint24"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint32",
+        "name": "uint32val",
+        "type": "uint32"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint40",
+        "name": "uint40val",
+        "type": "uint40"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint48",
+        "name": "uint48val",
+        "type": "uint48"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint56",
+        "name": "uint56val",
+        "type": "uint56"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64",
+        "name": "uint64val",
+        "type": "uint64"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint72",
+        "name": "uint72val",
+        "type": "uint72"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint80",
+        "name": "uint80val",
+        "type": "uint80"
+      }
+    ],
+    "name": "UintEvent1",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint88",
+        "name": "uint88val",
+        "type": "uint88"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint96",
+        "name": "uint96val",
+        "type": "uint96"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint104",
+        "name": "uint104val",
+        "type": "uint104"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint112",
+        "name": "uint112val",
+        "type": "uint112"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint120",
+        "name": "uint120val",
+        "type": "uint120"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint128",
+        "name": "uint128val",
+        "type": "uint128"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint136",
+        "name": "uint136val",
+        "type": "uint136"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint144",
+        "name": "uint144val",
+        "type": "uint144"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint152",
+        "name": "uint152val",
+        "type": "uint152"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint160",
+        "name": "uint160val",
+        "type": "uint160"
+      }
+    ],
+    "name": "UintEvent2",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint168",
+        "name": "uint168val",
+        "type": "uint168"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint176",
+        "name": "uint176val",
+        "type": "uint176"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint184",
+        "name": "uint184val",
+        "type": "uint184"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint192",
+        "name": "uint192val",
+        "type": "uint192"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint200",
+        "name": "uint200val",
+        "type": "uint200"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint208",
+        "name": "uint208val",
+        "type": "uint208"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint216",
+        "name": "uint216val",
+        "type": "uint216"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint224",
+        "name": "uint224val",
+        "type": "uint224"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint232",
+        "name": "uint232val",
+        "type": "uint232"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint240",
+        "name": "uint240val",
+        "type": "uint240"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint248",
+        "name": "uint248val",
+        "type": "uint248"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "uint256val",
+        "type": "uint256"
+      }
+    ],
+    "name": "UintEvent3",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "bytes1",
+            "name": "bytes1val",
+            "type": "bytes1"
+          },
+          {
+            "internalType": "bytes2",
+            "name": "bytes2val",
+            "type": "bytes2"
+          },
+          {
+            "internalType": "bytes3",
+            "name": "bytes3val",
+            "type": "bytes3"
+          },
+          {
+            "internalType": "bytes4",
+            "name": "bytes4val",
+            "type": "bytes4"
+          },
+          {
+            "internalType": "bytes5",
+            "name": "bytes5val",
+            "type": "bytes5"
+          },
+          {
+            "internalType": "bytes6",
+            "name": "bytes6val",
+            "type": "bytes6"
+          },
+          {
+            "internalType": "bytes7",
+            "name": "bytes7val",
+            "type": "bytes7"
+          },
+          {
+            "internalType": "bytes8",
+            "name": "bytes8val",
+            "type": "bytes8"
+          },
+          {
+            "internalType": "bytes9",
+            "name": "bytes9val",
+            "type": "bytes9"
+          },
+          {
+            "internalType": "bytes10",
+            "name": "bytes10val",
+            "type": "bytes10"
+          },
+          {
+            "internalType": "bytes11",
+            "name": "bytes11val",
+            "type": "bytes11"
+          },
+          {
+            "internalType": "bytes12",
+            "name": "bytes12val",
+            "type": "bytes12"
+          },
+          {
+            "internalType": "bytes13",
+            "name": "bytes13val",
+            "type": "bytes13"
+          },
+          {
+            "internalType": "bytes14",
+            "name": "bytes14val",
+            "type": "bytes14"
+          },
+          {
+            "internalType": "bytes15",
+            "name": "bytes15val",
+            "type": "bytes15"
+          },
+          {
+            "internalType": "bytes16",
+            "name": "bytes16val",
+            "type": "bytes16"
+          },
+          {
+            "internalType": "bytes17",
+            "name": "bytes17val",
+            "type": "bytes17"
+          },
+          {
+            "internalType": "bytes18",
+            "name": "bytes18val",
+            "type": "bytes18"
+          },
+          {
+            "internalType": "bytes19",
+            "name": "bytes19val",
+            "type": "bytes19"
+          },
+          {
+            "internalType": "bytes20",
+            "name": "bytes20val",
+            "type": "bytes20"
+          },
+          {
+            "internalType": "bytes21",
+            "name": "bytes21val",
+            "type": "bytes21"
+          },
+          {
+            "internalType": "bytes22",
+            "name": "bytes22val",
+            "type": "bytes22"
+          },
+          {
+            "internalType": "bytes23",
+            "name": "bytes23val",
+            "type": "bytes23"
+          },
+          {
+            "internalType": "bytes24",
+            "name": "bytes24val",
+            "type": "bytes24"
+          },
+          {
+            "internalType": "bytes25",
+            "name": "bytes25val",
+            "type": "bytes25"
+          },
+          {
+            "internalType": "bytes26",
+            "name": "bytes26val",
+            "type": "bytes26"
+          },
+          {
+            "internalType": "bytes27",
+            "name": "bytes27val",
+            "type": "bytes27"
+          },
+          {
+            "internalType": "bytes28",
+            "name": "bytes28val",
+            "type": "bytes28"
+          },
+          {
+            "internalType": "bytes29",
+            "name": "bytes29val",
+            "type": "bytes29"
+          },
+          {
+            "internalType": "bytes30",
+            "name": "bytes30val",
+            "type": "bytes30"
+          },
+          {
+            "internalType": "bytes31",
+            "name": "bytes31val",
+            "type": "bytes31"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "bytes32val",
+            "type": "bytes32"
+          }
+        ],
+        "internalType": "struct ITestValueEmitter.BytesStruct",
+        "name": "s",
+        "type": "tuple"
+      }
+    ],
+    "name": "emitBytesEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "int8",
+            "name": "int8val",
+            "type": "int8"
+          },
+          {
+            "internalType": "int16",
+            "name": "int16val",
+            "type": "int16"
+          },
+          {
+            "internalType": "int24",
+            "name": "int24val",
+            "type": "int24"
+          },
+          {
+            "internalType": "int32",
+            "name": "int32val",
+            "type": "int32"
+          },
+          {
+            "internalType": "int40",
+            "name": "int40val",
+            "type": "int40"
+          },
+          {
+            "internalType": "int48",
+            "name": "int48val",
+            "type": "int48"
+          },
+          {
+            "internalType": "int56",
+            "name": "int56val",
+            "type": "int56"
+          },
+          {
+            "internalType": "int64",
+            "name": "int64val",
+            "type": "int64"
+          },
+          {
+            "internalType": "int72",
+            "name": "int72val",
+            "type": "int72"
+          },
+          {
+            "internalType": "int80",
+            "name": "int80val",
+            "type": "int80"
+          },
+          {
+            "internalType": "int88",
+            "name": "int88val",
+            "type": "int88"
+          },
+          {
+            "internalType": "int96",
+            "name": "int96val",
+            "type": "int96"
+          },
+          {
+            "internalType": "int104",
+            "name": "int104val",
+            "type": "int104"
+          },
+          {
+            "internalType": "int112",
+            "name": "int112val",
+            "type": "int112"
+          },
+          {
+            "internalType": "int120",
+            "name": "int120val",
+            "type": "int120"
+          },
+          {
+            "internalType": "int128",
+            "name": "int128val",
+            "type": "int128"
+          },
+          {
+            "internalType": "int136",
+            "name": "int136val",
+            "type": "int136"
+          },
+          {
+            "internalType": "int144",
+            "name": "int144val",
+            "type": "int144"
+          },
+          {
+            "internalType": "int152",
+            "name": "int152val",
+            "type": "int152"
+          },
+          {
+            "internalType": "int160",
+            "name": "int160val",
+            "type": "int160"
+          },
+          {
+            "internalType": "int168",
+            "name": "int168val",
+            "type": "int168"
+          },
+          {
+            "internalType": "int176",
+            "name": "int176val",
+            "type": "int176"
+          },
+          {
+            "internalType": "int184",
+            "name": "int184val",
+            "type": "int184"
+          },
+          {
+            "internalType": "int192",
+            "name": "int192val",
+            "type": "int192"
+          },
+          {
+            "internalType": "int200",
+            "name": "int200val",
+            "type": "int200"
+          },
+          {
+            "internalType": "int208",
+            "name": "int208val",
+            "type": "int208"
+          },
+          {
+            "internalType": "int216",
+            "name": "int216val",
+            "type": "int216"
+          },
+          {
+            "internalType": "int224",
+            "name": "int224val",
+            "type": "int224"
+          },
+          {
+            "internalType": "int232",
+            "name": "int232val",
+            "type": "int232"
+          },
+          {
+            "internalType": "int240",
+            "name": "int240val",
+            "type": "int240"
+          },
+          {
+            "internalType": "int248",
+            "name": "int248val",
+            "type": "int248"
+          },
+          {
+            "internalType": "int256",
+            "name": "int256val",
+            "type": "int256"
+          }
+        ],
+        "internalType": "struct ITestValueEmitter.IntStruct",
+        "name": "s",
+        "type": "tuple"
+      }
+    ],
+    "name": "emitIntEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "bool",
+            "name": "boolVal",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "stringVal",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "bytesVal",
+            "type": "bytes"
+          }
+        ],
+        "internalType": "struct ITestValueEmitter.MixedStruct",
+        "name": "s",
+        "type": "tuple"
+      }
+    ],
+    "name": "emitMixedEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8",
+            "name": "uint8val",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint16",
+            "name": "uint16val",
+            "type": "uint16"
+          },
+          {
+            "internalType": "uint24",
+            "name": "uint24val",
+            "type": "uint24"
+          },
+          {
+            "internalType": "uint32",
+            "name": "uint32val",
+            "type": "uint32"
+          },
+          {
+            "internalType": "uint40",
+            "name": "uint40val",
+            "type": "uint40"
+          },
+          {
+            "internalType": "uint48",
+            "name": "uint48val",
+            "type": "uint48"
+          },
+          {
+            "internalType": "uint56",
+            "name": "uint56val",
+            "type": "uint56"
+          },
+          {
+            "internalType": "uint64",
+            "name": "uint64val",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint72",
+            "name": "uint72val",
+            "type": "uint72"
+          },
+          {
+            "internalType": "uint80",
+            "name": "uint80val",
+            "type": "uint80"
+          },
+          {
+            "internalType": "uint88",
+            "name": "uint88val",
+            "type": "uint88"
+          },
+          {
+            "internalType": "uint96",
+            "name": "uint96val",
+            "type": "uint96"
+          },
+          {
+            "internalType": "uint104",
+            "name": "uint104val",
+            "type": "uint104"
+          },
+          {
+            "internalType": "uint112",
+            "name": "uint112val",
+            "type": "uint112"
+          },
+          {
+            "internalType": "uint120",
+            "name": "uint120val",
+            "type": "uint120"
+          },
+          {
+            "internalType": "uint128",
+            "name": "uint128val",
+            "type": "uint128"
+          },
+          {
+            "internalType": "uint136",
+            "name": "uint136val",
+            "type": "uint136"
+          },
+          {
+            "internalType": "uint144",
+            "name": "uint144val",
+            "type": "uint144"
+          },
+          {
+            "internalType": "uint152",
+            "name": "uint152val",
+            "type": "uint152"
+          },
+          {
+            "internalType": "uint160",
+            "name": "uint160val",
+            "type": "uint160"
+          },
+          {
+            "internalType": "uint168",
+            "name": "uint168val",
+            "type": "uint168"
+          },
+          {
+            "internalType": "uint176",
+            "name": "uint176val",
+            "type": "uint176"
+          },
+          {
+            "internalType": "uint184",
+            "name": "uint184val",
+            "type": "uint184"
+          },
+          {
+            "internalType": "uint192",
+            "name": "uint192val",
+            "type": "uint192"
+          },
+          {
+            "internalType": "uint200",
+            "name": "uint200val",
+            "type": "uint200"
+          },
+          {
+            "internalType": "uint208",
+            "name": "uint208val",
+            "type": "uint208"
+          },
+          {
+            "internalType": "uint216",
+            "name": "uint216val",
+            "type": "uint216"
+          },
+          {
+            "internalType": "uint224",
+            "name": "uint224val",
+            "type": "uint224"
+          },
+          {
+            "internalType": "uint232",
+            "name": "uint232val",
+            "type": "uint232"
+          },
+          {
+            "internalType": "uint240",
+            "name": "uint240val",
+            "type": "uint240"
+          },
+          {
+            "internalType": "uint248",
+            "name": "uint248val",
+            "type": "uint248"
+          },
+          {
+            "internalType": "uint256",
+            "name": "uint256val",
+            "type": "uint256"
+          }
+        ],
+        "internalType": "struct ITestValueEmitter.UintStruct",
+        "name": "s",
+        "type": "tuple"
+      }
+    ],
+    "name": "emitUintEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

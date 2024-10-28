@@ -1,0 +1,1111 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.AddressCustom",
+        "name": "val",
+        "type": "address"
+      }
+    ],
+    "name": "AddressCustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.AddressCustom",
+        "name": "val",
+        "type": "address"
+      }
+    ],
+    "name": "AddressCustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": true,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int8",
+        "name": "a",
+        "type": "int8"
+      },
+      {
+        "indexed": false,
+        "internalType": "int8",
+        "name": "b",
+        "type": "int8"
+      },
+      {
+        "indexed": false,
+        "internalType": "int8",
+        "name": "c",
+        "type": "int8"
+      },
+      {
+        "indexed": false,
+        "internalType": "int8",
+        "name": "d",
+        "type": "int8"
+      }
+    ],
+    "name": "AnonymousEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": true,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int8",
+        "name": "a",
+        "type": "int8"
+      },
+      {
+        "indexed": true,
+        "internalType": "int8",
+        "name": "b",
+        "type": "int8"
+      },
+      {
+        "indexed": true,
+        "internalType": "int8",
+        "name": "c",
+        "type": "int8"
+      },
+      {
+        "indexed": true,
+        "internalType": "int8",
+        "name": "d",
+        "type": "int8"
+      }
+    ],
+    "name": "AnonymousEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.BoolCustom",
+        "name": "val",
+        "type": "bool"
+      }
+    ],
+    "name": "BoolCustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.BoolCustom",
+        "name": "val",
+        "type": "bool"
+      }
+    ],
+    "name": "BoolCustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes10Custom",
+        "name": "val",
+        "type": "bytes10"
+      }
+    ],
+    "name": "Bytes10CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes10Custom",
+        "name": "val",
+        "type": "bytes10"
+      }
+    ],
+    "name": "Bytes10CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes11Custom",
+        "name": "val",
+        "type": "bytes11"
+      }
+    ],
+    "name": "Bytes11CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes11Custom",
+        "name": "val",
+        "type": "bytes11"
+      }
+    ],
+    "name": "Bytes11CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes12Custom",
+        "name": "val",
+        "type": "bytes12"
+      }
+    ],
+    "name": "Bytes12CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes12Custom",
+        "name": "val",
+        "type": "bytes12"
+      }
+    ],
+    "name": "Bytes12CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes13Custom",
+        "name": "val",
+        "type": "bytes13"
+      }
+    ],
+    "name": "Bytes13CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes13Custom",
+        "name": "val",
+        "type": "bytes13"
+      }
+    ],
+    "name": "Bytes13CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes14Custom",
+        "name": "val",
+        "type": "bytes14"
+      }
+    ],
+    "name": "Bytes14CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes14Custom",
+        "name": "val",
+        "type": "bytes14"
+      }
+    ],
+    "name": "Bytes14CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes15Custom",
+        "name": "val",
+        "type": "bytes15"
+      }
+    ],
+    "name": "Bytes15CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes15Custom",
+        "name": "val",
+        "type": "bytes15"
+      }
+    ],
+    "name": "Bytes15CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes16Custom",
+        "name": "val",
+        "type": "bytes16"
+      }
+    ],
+    "name": "Bytes16CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes16Custom",
+        "name": "val",
+        "type": "bytes16"
+      }
+    ],
+    "name": "Bytes16CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes17Custom",
+        "name": "val",
+        "type": "bytes17"
+      }
+    ],
+    "name": "Bytes17CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes17Custom",
+        "name": "val",
+        "type": "bytes17"
+      }
+    ],
+    "name": "Bytes17CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes18Custom",
+        "name": "val",
+        "type": "bytes18"
+      }
+    ],
+    "name": "Bytes18CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes18Custom",
+        "name": "val",
+        "type": "bytes18"
+      }
+    ],
+    "name": "Bytes18CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes19Custom",
+        "name": "val",
+        "type": "bytes19"
+      }
+    ],
+    "name": "Bytes19CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes19Custom",
+        "name": "val",
+        "type": "bytes19"
+      }
+    ],
+    "name": "Bytes19CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes1Custom",
+        "name": "val",
+        "type": "bytes1"
+      }
+    ],
+    "name": "Bytes1CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes1Custom",
+        "name": "val",
+        "type": "bytes1"
+      }
+    ],
+    "name": "Bytes1CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes20Custom",
+        "name": "val",
+        "type": "bytes20"
+      }
+    ],
+    "name": "Bytes20CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes20Custom",
+        "name": "val",
+        "type": "bytes20"
+      }
+    ],
+    "name": "Bytes20CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes21Custom",
+        "name": "val",
+        "type": "bytes21"
+      }
+    ],
+    "name": "Bytes21CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes21Custom",
+        "name": "val",
+        "type": "bytes21"
+      }
+    ],
+    "name": "Bytes21CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes22Custom",
+        "name": "val",
+        "type": "bytes22"
+      }
+    ],
+    "name": "Bytes22CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes22Custom",
+        "name": "val",
+        "type": "bytes22"
+      }
+    ],
+    "name": "Bytes22CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes23Custom",
+        "name": "val",
+        "type": "bytes23"
+      }
+    ],
+    "name": "Bytes23CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes23Custom",
+        "name": "val",
+        "type": "bytes23"
+      }
+    ],
+    "name": "Bytes23CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes24Custom",
+        "name": "val",
+        "type": "bytes24"
+      }
+    ],
+    "name": "Bytes24CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes24Custom",
+        "name": "val",
+        "type": "bytes24"
+      }
+    ],
+    "name": "Bytes24CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes25Custom",
+        "name": "val",
+        "type": "bytes25"
+      }
+    ],
+    "name": "Bytes25CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes25Custom",
+        "name": "val",
+        "type": "bytes25"
+      }
+    ],
+    "name": "Bytes25CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes26Custom",
+        "name": "val",
+        "type": "bytes26"
+      }
+    ],
+    "name": "Bytes26CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes26Custom",
+        "name": "val",
+        "type": "bytes26"
+      }
+    ],
+    "name": "Bytes26CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes27Custom",
+        "name": "val",
+        "type": "bytes27"
+      }
+    ],
+    "name": "Bytes27CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes27Custom",
+        "name": "val",
+        "type": "bytes27"
+      }
+    ],
+    "name": "Bytes27CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes28Custom",
+        "name": "val",
+        "type": "bytes28"
+      }
+    ],
+    "name": "Bytes28CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes28Custom",
+        "name": "val",
+        "type": "bytes28"
+      }
+    ],
+    "name": "Bytes28CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes29Custom",
+        "name": "val",
+        "type": "bytes29"
+      }
+    ],
+    "name": "Bytes29CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes29Custom",
+        "name": "val",
+        "type": "bytes29"
+      }
+    ],
+    "name": "Bytes29CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes2Custom",
+        "name": "val",
+        "type": "bytes2"
+      }
+    ],
+    "name": "Bytes2CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes2Custom",
+        "name": "val",
+        "type": "bytes2"
+      }
+    ],
+    "name": "Bytes2CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes30Custom",
+        "name": "val",
+        "type": "bytes30"
+      }
+    ],
+    "name": "Bytes30CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes30Custom",
+        "name": "val",
+        "type": "bytes30"
+      }
+    ],
+    "name": "Bytes30CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes31Custom",
+        "name": "val",
+        "type": "bytes31"
+      }
+    ],
+    "name": "Bytes31CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes31Custom",
+        "name": "val",
+        "type": "bytes31"
+      }
+    ],
+    "name": "Bytes31CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes32Custom",
+        "name": "val",
+        "type": "bytes32"
+      }
+    ],
+    "name": "Bytes32CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes32Custom",
+        "name": "val",
+        "type": "bytes32"
+      }
+    ],
+    "name": "Bytes32CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes3Custom",
+        "name": "val",
+        "type": "bytes3"
+      }
+    ],
+    "name": "Bytes3CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes3Custom",
+        "name": "val",
+        "type": "bytes3"
+      }
+    ],
+    "name": "Bytes3CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes4Custom",
+        "name": "val",
+        "type": "bytes4"
+      }
+    ],
+    "name": "Bytes4CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes4Custom",
+        "name": "val",
+        "type": "bytes4"
+      }
+    ],
+    "name": "Bytes4CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes5Custom",
+        "name": "val",
+        "type": "bytes5"
+      }
+    ],
+    "name": "Bytes5CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes5Custom",
+        "name": "val",
+        "type": "bytes5"
+      }
+    ],
+    "name": "Bytes5CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes6Custom",
+        "name": "val",
+        "type": "bytes6"
+      }
+    ],
+    "name": "Bytes6CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes6Custom",
+        "name": "val",
+        "type": "bytes6"
+      }
+    ],
+    "name": "Bytes6CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes7Custom",
+        "name": "val",
+        "type": "bytes7"
+      }
+    ],
+    "name": "Bytes7CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes7Custom",
+        "name": "val",
+        "type": "bytes7"
+      }
+    ],
+    "name": "Bytes7CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes8Custom",
+        "name": "val",
+        "type": "bytes8"
+      }
+    ],
+    "name": "Bytes8CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes8Custom",
+        "name": "val",
+        "type": "bytes8"
+      }
+    ],
+    "name": "Bytes8CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Bytes9Custom",
+        "name": "val",
+        "type": "bytes9"
+      }
+    ],
+    "name": "Bytes9CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Bytes9Custom",
+        "name": "val",
+        "type": "bytes9"
+      }
+    ],
+    "name": "Bytes9CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Int256Custom",
+        "name": "val",
+        "type": "int256"
+      }
+    ],
+    "name": "Int256CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Int256Custom",
+        "name": "val",
+        "type": "int256"
+      }
+    ],
+    "name": "Int256CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Int8Custom",
+        "name": "val",
+        "type": "int8"
+      }
+    ],
+    "name": "Int8CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Int8Custom",
+        "name": "val",
+        "type": "int8"
+      }
+    ],
+    "name": "Int8CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int8",
+        "name": "val",
+        "type": "int8"
+      }
+    ],
+    "name": "OverloadedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "val",
+        "type": "string"
+      }
+    ],
+    "name": "OverloadedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int8",
+        "name": "val",
+        "type": "int8"
+      }
+    ],
+    "name": "OverloadedEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "string",
+        "name": "val",
+        "type": "string"
+      }
+    ],
+    "name": "OverloadedEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Uint256Custom",
+        "name": "val",
+        "type": "uint256"
+      }
+    ],
+    "name": "Uint256CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Uint256Custom",
+        "name": "val",
+        "type": "uint256"
+      }
+    ],
+    "name": "Uint256CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "RareEmitter.Uint8Custom",
+        "name": "val",
+        "type": "uint8"
+      }
+    ],
+    "name": "Uint8CustomEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "RareEmitter.Uint8Custom",
+        "name": "val",
+        "type": "uint8"
+      }
+    ],
+    "name": "Uint8CustomEventIndexed",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "emitEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

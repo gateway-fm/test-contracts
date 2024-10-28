@@ -1,0 +1,2353 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address[3]",
+            "name": "wallets",
+            "type": "address[3]"
+          },
+          {
+            "internalType": "uint256[3]",
+            "name": "values",
+            "type": "uint256[3]"
+          },
+          {
+            "internalType": "bool[3]",
+            "name": "permissions",
+            "type": "bool[3]"
+          },
+          {
+            "internalType": "string[3]",
+            "name": "descriptions",
+            "type": "string[3]"
+          },
+          {
+            "internalType": "bytes[3]",
+            "name": "data",
+            "type": "bytes[3]"
+          },
+          {
+            "internalType": "bytes32[3]",
+            "name": "hashsums",
+            "type": "bytes32[3]"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IStructEmitter.ArrayStruct[3]",
+        "name": "aArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "ArrayStructArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address[3]",
+            "name": "wallets",
+            "type": "address[3]"
+          },
+          {
+            "internalType": "uint256[3]",
+            "name": "values",
+            "type": "uint256[3]"
+          },
+          {
+            "internalType": "bool[3]",
+            "name": "permissions",
+            "type": "bool[3]"
+          },
+          {
+            "internalType": "string[3]",
+            "name": "descriptions",
+            "type": "string[3]"
+          },
+          {
+            "internalType": "bytes[3]",
+            "name": "data",
+            "type": "bytes[3]"
+          },
+          {
+            "internalType": "bytes32[3]",
+            "name": "hashsums",
+            "type": "bytes32[3]"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IStructEmitter.ArrayStruct[3]",
+        "name": "aArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "ArrayStructArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address[3]",
+            "name": "wallets",
+            "type": "address[3]"
+          },
+          {
+            "internalType": "uint256[3]",
+            "name": "values",
+            "type": "uint256[3]"
+          },
+          {
+            "internalType": "bool[3]",
+            "name": "permissions",
+            "type": "bool[3]"
+          },
+          {
+            "internalType": "string[3]",
+            "name": "descriptions",
+            "type": "string[3]"
+          },
+          {
+            "internalType": "bytes[3]",
+            "name": "data",
+            "type": "bytes[3]"
+          },
+          {
+            "internalType": "bytes32[3]",
+            "name": "hashsums",
+            "type": "bytes32[3]"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IStructEmitter.ArrayStruct",
+        "name": "a",
+        "type": "tuple"
+      }
+    ],
+    "name": "ArrayStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address[3]",
+            "name": "wallets",
+            "type": "address[3]"
+          },
+          {
+            "internalType": "uint256[3]",
+            "name": "values",
+            "type": "uint256[3]"
+          },
+          {
+            "internalType": "bool[3]",
+            "name": "permissions",
+            "type": "bool[3]"
+          },
+          {
+            "internalType": "string[3]",
+            "name": "descriptions",
+            "type": "string[3]"
+          },
+          {
+            "internalType": "bytes[3]",
+            "name": "data",
+            "type": "bytes[3]"
+          },
+          {
+            "internalType": "bytes32[3]",
+            "name": "hashsums",
+            "type": "bytes32[3]"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IStructEmitter.ArrayStruct",
+        "name": "a",
+        "type": "tuple"
+      }
+    ],
+    "name": "ArrayStructEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address[3]",
+            "name": "wallets",
+            "type": "address[3]"
+          },
+          {
+            "internalType": "uint256[3]",
+            "name": "values",
+            "type": "uint256[3]"
+          },
+          {
+            "internalType": "bool[3]",
+            "name": "permissions",
+            "type": "bool[3]"
+          },
+          {
+            "internalType": "string[3]",
+            "name": "descriptions",
+            "type": "string[3]"
+          },
+          {
+            "internalType": "bytes[3]",
+            "name": "data",
+            "type": "bytes[3]"
+          },
+          {
+            "internalType": "bytes32[3]",
+            "name": "hashsums",
+            "type": "bytes32[3]"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IStructEmitter.ArrayStruct[]",
+        "name": "aSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "ArrayStructSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address[3]",
+            "name": "wallets",
+            "type": "address[3]"
+          },
+          {
+            "internalType": "uint256[3]",
+            "name": "values",
+            "type": "uint256[3]"
+          },
+          {
+            "internalType": "bool[3]",
+            "name": "permissions",
+            "type": "bool[3]"
+          },
+          {
+            "internalType": "string[3]",
+            "name": "descriptions",
+            "type": "string[3]"
+          },
+          {
+            "internalType": "bytes[3]",
+            "name": "data",
+            "type": "bytes[3]"
+          },
+          {
+            "internalType": "bytes32[3]",
+            "name": "hashsums",
+            "type": "bytes32[3]"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IStructEmitter.ArrayStruct[]",
+        "name": "aSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "ArrayStructSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct ExternalContract.ExternalStruct[3]",
+        "name": "eArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "ExternalStructArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct ExternalContract.ExternalStruct[3]",
+        "name": "eArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "ExternalStructArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct ExternalContract.ExternalStruct",
+        "name": "e",
+        "type": "tuple"
+      }
+    ],
+    "name": "ExternalStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct ExternalContract.ExternalStruct",
+        "name": "e",
+        "type": "tuple"
+      }
+    ],
+    "name": "ExternalStructEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct ExternalContract.ExternalStruct[]",
+        "name": "eSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "ExternalStructSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct ExternalContract.ExternalStruct[]",
+        "name": "eSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "ExternalStructSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IInheritedInterface.InheritedIfaceStruct[3]",
+        "name": "iiArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "InheritedIfaceStructArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IInheritedInterface.InheritedIfaceStruct[3]",
+        "name": "iiArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "InheritedIfaceStructArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IInheritedInterface.InheritedIfaceStruct",
+        "name": "ii",
+        "type": "tuple"
+      }
+    ],
+    "name": "InheritedIfaceStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IInheritedInterface.InheritedIfaceStruct",
+        "name": "ii",
+        "type": "tuple"
+      }
+    ],
+    "name": "InheritedIfaceStructEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IInheritedInterface.InheritedIfaceStruct[]",
+        "name": "iiSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "InheritedIfaceStructSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IInheritedInterface.InheritedIfaceStruct[]",
+        "name": "iiSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "InheritedIfaceStructSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct InheritedContract.InheritedStruct[3]",
+        "name": "iArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "InheritedStructArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct InheritedContract.InheritedStruct[3]",
+        "name": "iArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "InheritedStructArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct InheritedContract.InheritedStruct",
+        "name": "i",
+        "type": "tuple"
+      }
+    ],
+    "name": "InheritedStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct InheritedContract.InheritedStruct",
+        "name": "i",
+        "type": "tuple"
+      }
+    ],
+    "name": "InheritedStructEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct InheritedContract.InheritedStruct[]",
+        "name": "iSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "InheritedStructSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct InheritedContract.InheritedStruct[]",
+        "name": "iSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "InheritedStructSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct StructLib.LibraryStruct[3]",
+        "name": "lArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "LibraryStructArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct StructLib.LibraryStruct[3]",
+        "name": "lArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "LibraryStructArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct StructLib.LibraryStruct",
+        "name": "l",
+        "type": "tuple"
+      }
+    ],
+    "name": "LibraryStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct StructLib.LibraryStruct",
+        "name": "l",
+        "type": "tuple"
+      }
+    ],
+    "name": "LibraryStructEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct StructLib.LibraryStruct[]",
+        "name": "lSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "LibraryStructSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct StructLib.LibraryStruct[]",
+        "name": "lSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "LibraryStructSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address",
+                "name": "wallet",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "value",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bool",
+                "name": "allowed",
+                "type": "bool"
+              },
+              {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "internalType": "bytes",
+                "name": "data",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "hashsum",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct IStructEmitter.SimpleStruct",
+            "name": "s",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address[3]",
+                "name": "wallets",
+                "type": "address[3]"
+              },
+              {
+                "internalType": "uint256[3]",
+                "name": "values",
+                "type": "uint256[3]"
+              },
+              {
+                "internalType": "bool[3]",
+                "name": "permissions",
+                "type": "bool[3]"
+              },
+              {
+                "internalType": "string[3]",
+                "name": "descriptions",
+                "type": "string[3]"
+              },
+              {
+                "internalType": "bytes[3]",
+                "name": "data",
+                "type": "bytes[3]"
+              },
+              {
+                "internalType": "bytes32[3]",
+                "name": "hashsums",
+                "type": "bytes32[3]"
+              }
+            ],
+            "internalType": "struct IStructEmitter.ArrayStruct",
+            "name": "a",
+            "type": "tuple"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IStructEmitter.NestedStruct[3]",
+        "name": "nArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "NestedStructArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address",
+                "name": "wallet",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "value",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bool",
+                "name": "allowed",
+                "type": "bool"
+              },
+              {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "internalType": "bytes",
+                "name": "data",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "hashsum",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct IStructEmitter.SimpleStruct",
+            "name": "s",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address[3]",
+                "name": "wallets",
+                "type": "address[3]"
+              },
+              {
+                "internalType": "uint256[3]",
+                "name": "values",
+                "type": "uint256[3]"
+              },
+              {
+                "internalType": "bool[3]",
+                "name": "permissions",
+                "type": "bool[3]"
+              },
+              {
+                "internalType": "string[3]",
+                "name": "descriptions",
+                "type": "string[3]"
+              },
+              {
+                "internalType": "bytes[3]",
+                "name": "data",
+                "type": "bytes[3]"
+              },
+              {
+                "internalType": "bytes32[3]",
+                "name": "hashsums",
+                "type": "bytes32[3]"
+              }
+            ],
+            "internalType": "struct IStructEmitter.ArrayStruct",
+            "name": "a",
+            "type": "tuple"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IStructEmitter.NestedStruct[3]",
+        "name": "nArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "NestedStructArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address",
+                "name": "wallet",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "value",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bool",
+                "name": "allowed",
+                "type": "bool"
+              },
+              {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "internalType": "bytes",
+                "name": "data",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "hashsum",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct IStructEmitter.SimpleStruct",
+            "name": "s",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address[3]",
+                "name": "wallets",
+                "type": "address[3]"
+              },
+              {
+                "internalType": "uint256[3]",
+                "name": "values",
+                "type": "uint256[3]"
+              },
+              {
+                "internalType": "bool[3]",
+                "name": "permissions",
+                "type": "bool[3]"
+              },
+              {
+                "internalType": "string[3]",
+                "name": "descriptions",
+                "type": "string[3]"
+              },
+              {
+                "internalType": "bytes[3]",
+                "name": "data",
+                "type": "bytes[3]"
+              },
+              {
+                "internalType": "bytes32[3]",
+                "name": "hashsums",
+                "type": "bytes32[3]"
+              }
+            ],
+            "internalType": "struct IStructEmitter.ArrayStruct",
+            "name": "a",
+            "type": "tuple"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IStructEmitter.NestedStruct",
+        "name": "n",
+        "type": "tuple"
+      }
+    ],
+    "name": "NestedStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address",
+                "name": "wallet",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "value",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bool",
+                "name": "allowed",
+                "type": "bool"
+              },
+              {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "internalType": "bytes",
+                "name": "data",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "hashsum",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct IStructEmitter.SimpleStruct",
+            "name": "s",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address[3]",
+                "name": "wallets",
+                "type": "address[3]"
+              },
+              {
+                "internalType": "uint256[3]",
+                "name": "values",
+                "type": "uint256[3]"
+              },
+              {
+                "internalType": "bool[3]",
+                "name": "permissions",
+                "type": "bool[3]"
+              },
+              {
+                "internalType": "string[3]",
+                "name": "descriptions",
+                "type": "string[3]"
+              },
+              {
+                "internalType": "bytes[3]",
+                "name": "data",
+                "type": "bytes[3]"
+              },
+              {
+                "internalType": "bytes32[3]",
+                "name": "hashsums",
+                "type": "bytes32[3]"
+              }
+            ],
+            "internalType": "struct IStructEmitter.ArrayStruct",
+            "name": "a",
+            "type": "tuple"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IStructEmitter.NestedStruct",
+        "name": "n",
+        "type": "tuple"
+      }
+    ],
+    "name": "NestedStructEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address",
+                "name": "wallet",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "value",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bool",
+                "name": "allowed",
+                "type": "bool"
+              },
+              {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "internalType": "bytes",
+                "name": "data",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "hashsum",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct IStructEmitter.SimpleStruct",
+            "name": "s",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address[3]",
+                "name": "wallets",
+                "type": "address[3]"
+              },
+              {
+                "internalType": "uint256[3]",
+                "name": "values",
+                "type": "uint256[3]"
+              },
+              {
+                "internalType": "bool[3]",
+                "name": "permissions",
+                "type": "bool[3]"
+              },
+              {
+                "internalType": "string[3]",
+                "name": "descriptions",
+                "type": "string[3]"
+              },
+              {
+                "internalType": "bytes[3]",
+                "name": "data",
+                "type": "bytes[3]"
+              },
+              {
+                "internalType": "bytes32[3]",
+                "name": "hashsums",
+                "type": "bytes32[3]"
+              }
+            ],
+            "internalType": "struct IStructEmitter.ArrayStruct",
+            "name": "a",
+            "type": "tuple"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IStructEmitter.NestedStruct[]",
+        "name": "nSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "NestedStructSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address",
+                "name": "wallet",
+                "type": "address"
+              },
+              {
+                "internalType": "uint256",
+                "name": "value",
+                "type": "uint256"
+              },
+              {
+                "internalType": "bool",
+                "name": "allowed",
+                "type": "bool"
+              },
+              {
+                "internalType": "string",
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "internalType": "bytes",
+                "name": "data",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "hashsum",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct IStructEmitter.SimpleStruct",
+            "name": "s",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "enum IStructEmitter.Types",
+                "name": "structType",
+                "type": "uint8"
+              },
+              {
+                "internalType": "address[3]",
+                "name": "wallets",
+                "type": "address[3]"
+              },
+              {
+                "internalType": "uint256[3]",
+                "name": "values",
+                "type": "uint256[3]"
+              },
+              {
+                "internalType": "bool[3]",
+                "name": "permissions",
+                "type": "bool[3]"
+              },
+              {
+                "internalType": "string[3]",
+                "name": "descriptions",
+                "type": "string[3]"
+              },
+              {
+                "internalType": "bytes[3]",
+                "name": "data",
+                "type": "bytes[3]"
+              },
+              {
+                "internalType": "bytes32[3]",
+                "name": "hashsums",
+                "type": "bytes32[3]"
+              }
+            ],
+            "internalType": "struct IStructEmitter.ArrayStruct",
+            "name": "a",
+            "type": "tuple"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IStructEmitter.NestedStruct[]",
+        "name": "nSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "NestedStructSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IStructEmitter.SimpleStruct[3]",
+        "name": "sArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "SimpleStructArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IStructEmitter.SimpleStruct[3]",
+        "name": "sArray",
+        "type": "tuple[3]"
+      }
+    ],
+    "name": "SimpleStructArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IStructEmitter.SimpleStruct",
+        "name": "s",
+        "type": "tuple"
+      }
+    ],
+    "name": "SimpleStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IStructEmitter.SimpleStruct",
+        "name": "s",
+        "type": "tuple"
+      }
+    ],
+    "name": "SimpleStructEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct IStructEmitter.SimpleStruct[]",
+        "name": "sSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "SimpleStructSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "enum IStructEmitter.Types",
+            "name": "structType",
+            "type": "uint8"
+          },
+          {
+            "internalType": "address",
+            "name": "wallet",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "value",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bool",
+            "name": "allowed",
+            "type": "bool"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "hashsum",
+            "type": "bytes32"
+          }
+        ],
+        "indexed": true,
+        "internalType": "struct IStructEmitter.SimpleStruct[]",
+        "name": "sSlice",
+        "type": "tuple[]"
+      }
+    ],
+    "name": "SimpleStructSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "emitStructArrayEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitStructArrayIndexedEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitStructEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitStructIndexedEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitStructSliceEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitStructSliceIndexedEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

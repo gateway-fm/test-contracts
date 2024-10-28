@@ -1,0 +1,1058 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes10",
+        "name": "bytesVal",
+        "type": "bytes10"
+      }
+    ],
+    "name": "Bytes10Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes10",
+        "name": "bytesVal",
+        "type": "bytes10"
+      }
+    ],
+    "name": "Bytes10EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes11",
+        "name": "bytesVal",
+        "type": "bytes11"
+      }
+    ],
+    "name": "Bytes11Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes11",
+        "name": "bytesVal",
+        "type": "bytes11"
+      }
+    ],
+    "name": "Bytes11EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes12",
+        "name": "bytesVal",
+        "type": "bytes12"
+      }
+    ],
+    "name": "Bytes12Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes12",
+        "name": "bytesVal",
+        "type": "bytes12"
+      }
+    ],
+    "name": "Bytes12EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes13",
+        "name": "bytesVal",
+        "type": "bytes13"
+      }
+    ],
+    "name": "Bytes13Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes13",
+        "name": "bytesVal",
+        "type": "bytes13"
+      }
+    ],
+    "name": "Bytes13EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes14",
+        "name": "bytesVal",
+        "type": "bytes14"
+      }
+    ],
+    "name": "Bytes14Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes14",
+        "name": "bytesVal",
+        "type": "bytes14"
+      }
+    ],
+    "name": "Bytes14EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes15",
+        "name": "bytesVal",
+        "type": "bytes15"
+      }
+    ],
+    "name": "Bytes15Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes15",
+        "name": "bytesVal",
+        "type": "bytes15"
+      }
+    ],
+    "name": "Bytes15EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes16",
+        "name": "bytesVal",
+        "type": "bytes16"
+      }
+    ],
+    "name": "Bytes16Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes16",
+        "name": "bytesVal",
+        "type": "bytes16"
+      }
+    ],
+    "name": "Bytes16EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes17",
+        "name": "bytesVal",
+        "type": "bytes17"
+      }
+    ],
+    "name": "Bytes17Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes17",
+        "name": "bytesVal",
+        "type": "bytes17"
+      }
+    ],
+    "name": "Bytes17EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes18",
+        "name": "bytesVal",
+        "type": "bytes18"
+      }
+    ],
+    "name": "Bytes18Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes18",
+        "name": "bytesVal",
+        "type": "bytes18"
+      }
+    ],
+    "name": "Bytes18EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes19",
+        "name": "bytesVal",
+        "type": "bytes19"
+      }
+    ],
+    "name": "Bytes19Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes19",
+        "name": "bytesVal",
+        "type": "bytes19"
+      }
+    ],
+    "name": "Bytes19EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes1[3]",
+        "name": "bytes1Array",
+        "type": "bytes1[3]"
+      }
+    ],
+    "name": "Bytes1ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes1[3]",
+        "name": "bytes1Array",
+        "type": "bytes1[3]"
+      }
+    ],
+    "name": "Bytes1ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes1",
+        "name": "bytesVal",
+        "type": "bytes1"
+      }
+    ],
+    "name": "Bytes1Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes1",
+        "name": "bytesVal",
+        "type": "bytes1"
+      }
+    ],
+    "name": "Bytes1EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes1[]",
+        "name": "bytes1Slice",
+        "type": "bytes1[]"
+      }
+    ],
+    "name": "Bytes1SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes1[]",
+        "name": "bytes1Slice",
+        "type": "bytes1[]"
+      }
+    ],
+    "name": "Bytes1SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes20",
+        "name": "bytesVal",
+        "type": "bytes20"
+      }
+    ],
+    "name": "Bytes20Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes20",
+        "name": "bytesVal",
+        "type": "bytes20"
+      }
+    ],
+    "name": "Bytes20EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes21",
+        "name": "bytesVal",
+        "type": "bytes21"
+      }
+    ],
+    "name": "Bytes21Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes21",
+        "name": "bytesVal",
+        "type": "bytes21"
+      }
+    ],
+    "name": "Bytes21EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes22",
+        "name": "bytesVal",
+        "type": "bytes22"
+      }
+    ],
+    "name": "Bytes22Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes22",
+        "name": "bytesVal",
+        "type": "bytes22"
+      }
+    ],
+    "name": "Bytes22EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes23",
+        "name": "bytesVal",
+        "type": "bytes23"
+      }
+    ],
+    "name": "Bytes23Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes23",
+        "name": "bytesVal",
+        "type": "bytes23"
+      }
+    ],
+    "name": "Bytes23EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes24",
+        "name": "bytesVal",
+        "type": "bytes24"
+      }
+    ],
+    "name": "Bytes24Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes24",
+        "name": "bytesVal",
+        "type": "bytes24"
+      }
+    ],
+    "name": "Bytes24EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes25",
+        "name": "bytesVal",
+        "type": "bytes25"
+      }
+    ],
+    "name": "Bytes25Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes25",
+        "name": "bytesVal",
+        "type": "bytes25"
+      }
+    ],
+    "name": "Bytes25EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes26",
+        "name": "bytesVal",
+        "type": "bytes26"
+      }
+    ],
+    "name": "Bytes26Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes26",
+        "name": "bytesVal",
+        "type": "bytes26"
+      }
+    ],
+    "name": "Bytes26EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes27",
+        "name": "bytesVal",
+        "type": "bytes27"
+      }
+    ],
+    "name": "Bytes27Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes27",
+        "name": "bytesVal",
+        "type": "bytes27"
+      }
+    ],
+    "name": "Bytes27EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes28",
+        "name": "bytesVal",
+        "type": "bytes28"
+      }
+    ],
+    "name": "Bytes28Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes28",
+        "name": "bytesVal",
+        "type": "bytes28"
+      }
+    ],
+    "name": "Bytes28EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes29",
+        "name": "bytesVal",
+        "type": "bytes29"
+      }
+    ],
+    "name": "Bytes29Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes29",
+        "name": "bytesVal",
+        "type": "bytes29"
+      }
+    ],
+    "name": "Bytes29EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes2",
+        "name": "bytesVal",
+        "type": "bytes2"
+      }
+    ],
+    "name": "Bytes2Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes2",
+        "name": "bytesVal",
+        "type": "bytes2"
+      }
+    ],
+    "name": "Bytes2EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes30",
+        "name": "bytesVal",
+        "type": "bytes30"
+      }
+    ],
+    "name": "Bytes30Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes30",
+        "name": "bytesVal",
+        "type": "bytes30"
+      }
+    ],
+    "name": "Bytes30EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes31",
+        "name": "bytesVal",
+        "type": "bytes31"
+      }
+    ],
+    "name": "Bytes31Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes31",
+        "name": "bytesVal",
+        "type": "bytes31"
+      }
+    ],
+    "name": "Bytes31EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes32[3]",
+        "name": "bytes32Array",
+        "type": "bytes32[3]"
+      }
+    ],
+    "name": "Bytes32ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32[3]",
+        "name": "bytes32Array",
+        "type": "bytes32[3]"
+      }
+    ],
+    "name": "Bytes32ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes32",
+        "name": "bytesVal",
+        "type": "bytes32"
+      }
+    ],
+    "name": "Bytes32Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "bytesVal",
+        "type": "bytes32"
+      }
+    ],
+    "name": "Bytes32EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes32[]",
+        "name": "bytes32Slice",
+        "type": "bytes32[]"
+      }
+    ],
+    "name": "Bytes32SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes32[]",
+        "name": "bytes32Slice",
+        "type": "bytes32[]"
+      }
+    ],
+    "name": "Bytes32SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes3",
+        "name": "bytesVal",
+        "type": "bytes3"
+      }
+    ],
+    "name": "Bytes3Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes3",
+        "name": "bytesVal",
+        "type": "bytes3"
+      }
+    ],
+    "name": "Bytes3EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes4",
+        "name": "bytesVal",
+        "type": "bytes4"
+      }
+    ],
+    "name": "Bytes4Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes4",
+        "name": "bytesVal",
+        "type": "bytes4"
+      }
+    ],
+    "name": "Bytes4EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes5",
+        "name": "bytesVal",
+        "type": "bytes5"
+      }
+    ],
+    "name": "Bytes5Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes5",
+        "name": "bytesVal",
+        "type": "bytes5"
+      }
+    ],
+    "name": "Bytes5EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes6",
+        "name": "bytesVal",
+        "type": "bytes6"
+      }
+    ],
+    "name": "Bytes6Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes6",
+        "name": "bytesVal",
+        "type": "bytes6"
+      }
+    ],
+    "name": "Bytes6EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes7",
+        "name": "bytesVal",
+        "type": "bytes7"
+      }
+    ],
+    "name": "Bytes7Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes7",
+        "name": "bytesVal",
+        "type": "bytes7"
+      }
+    ],
+    "name": "Bytes7EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes8",
+        "name": "bytesVal",
+        "type": "bytes8"
+      }
+    ],
+    "name": "Bytes8Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes8",
+        "name": "bytesVal",
+        "type": "bytes8"
+      }
+    ],
+    "name": "Bytes8EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes9",
+        "name": "bytesVal",
+        "type": "bytes9"
+      }
+    ],
+    "name": "Bytes9Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes9",
+        "name": "bytesVal",
+        "type": "bytes9"
+      }
+    ],
+    "name": "Bytes9EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes[3]",
+        "name": "bytesArray",
+        "type": "bytes[3]"
+      }
+    ],
+    "name": "BytesArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes[3]",
+        "name": "bytesArray",
+        "type": "bytes[3]"
+      }
+    ],
+    "name": "BytesArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "bytesVal",
+        "type": "bytes"
+      }
+    ],
+    "name": "BytesEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes",
+        "name": "bytesVal",
+        "type": "bytes"
+      }
+    ],
+    "name": "BytesEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes[]",
+        "name": "bytesSlice",
+        "type": "bytes[]"
+      }
+    ],
+    "name": "BytesSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes[]",
+        "name": "bytesSlice",
+        "type": "bytes[]"
+      }
+    ],
+    "name": "BytesSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "emitBytesArrayEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitBytesArrayIndexedEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitBytesEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitBytesIndexedEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitBytesSliceEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitBytesSliceIndexedEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
