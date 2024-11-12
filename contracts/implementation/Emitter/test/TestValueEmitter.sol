@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
 
-import {ITestValueEmitter} from "./ITestValueEmitter.sol";
+import { ITestValueEmitter } from "./ITestValueEmitter.sol";
 
 contract TestValueEmitter is ITestValueEmitter {
     function emitIntEvents(IntStruct memory s) external {

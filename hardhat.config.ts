@@ -4,7 +4,6 @@ import "./tasks/index";
 import { network } from "./configs/config";
 
 const config: HardhatUserConfig = {
-  defaultNetwork: network.name,
   solidity: {
     compilers: [
       {
@@ -43,6 +42,11 @@ const config: HardhatUserConfig = {
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : undefined,
       chainId: 10200,
     },
+    stavanger: {
+      url: "https://stavanger-rpc.eu-north-2.gateway.fm/",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : undefined,
+      chainId: 50591822,
+    },
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY ?? "",
@@ -53,6 +57,14 @@ const config: HardhatUserConfig = {
         urls: {
           apiURL: network.apiURL,
           browserURL: network.browserURL,
+        },
+      },
+      {
+        network: "stavanger",
+        chainId: 50591822,
+        urls: {
+          apiURL: "https://stavanger-blockscout.eu-north-2.gateway.fm/api/",
+          browserURL: "https://stavanger-blockscout.eu-north-2.gateway.fm/",
         },
       },
     ],

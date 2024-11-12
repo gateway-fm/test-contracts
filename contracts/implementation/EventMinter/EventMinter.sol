@@ -2,7 +2,7 @@
 pragma solidity ^0.8.24;
 
 contract EventMinter {
-    constructor(){}
+    constructor() {}
 
     event NumberEvent(uint256 index, uint256 total);
 
@@ -11,5 +11,4 @@ contract EventMinter {
             emit NumberEvent(i, totalEvents);
         }
     }
-
 }

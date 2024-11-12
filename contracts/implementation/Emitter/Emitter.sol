@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
 
-import {IEmitter} from "./IEmitter.sol";
+import { IEmitter } from "./IEmitter.sol";
 
 contract Emitter is IEmitter {
     address private wallet = 0x8382Be7cc5C2Cd8b14F44108444ced6745c5feCb;

@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
 
-import {IInheritedInterface} from "./IInheritedInterface.sol";
+import { IInheritedInterface } from "./IInheritedInterface.sol";
 
 interface IStructEmitter is IInheritedInterface {
     enum Types {

@@ -1,4 +1,4 @@
-import { HardhatRuntimeEnvironment } from "hardhat/types";
+/*import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { getContractAddress, saveContractAbi } from "./contractData";
 import { Contract } from "ethers";
 
@@ -84,3 +84,4 @@ export async function validateUpgradeContract(hre: HardhatRuntimeEnvironment, co
   }
   console.log("Success validation");
 }
+*/

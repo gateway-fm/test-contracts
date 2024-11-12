@@ -29,7 +29,7 @@ describe.skip("Emitter unit tests", function () {
 
       await expect(tx).to.emit(emitter, "StructEvent");
 
-      const block = await tx.getBlock();
+      //const block = await tx.getBlock();
 
       // const logs = await emitter.queryFilter(emitter.filters.StructEvent);
       // console.log(logs);

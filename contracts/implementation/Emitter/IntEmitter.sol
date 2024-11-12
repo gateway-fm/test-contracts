@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
 
-import {IIntEvents} from "./IIntEvents.sol";
+import { IIntEvents } from "./IIntEvents.sol";
 
 contract IntEmitter is IIntEvents {
     int8 private int8Val;

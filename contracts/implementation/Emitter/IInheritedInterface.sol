@@ -15,12 +15,8 @@ interface IInheritedInterface {
     event InheritedIfaceStructEventIndexed(InheritedIfaceStruct indexed ii);
 
     event InheritedIfaceStructArrayEvent(InheritedIfaceStruct[3] iiArray);
-    event InheritedIfaceStructArrayEventIndexed(
-        InheritedIfaceStruct[3] indexed iiArray
-    );
+    event InheritedIfaceStructArrayEventIndexed(InheritedIfaceStruct[3] indexed iiArray);
 
     event InheritedIfaceStructSliceEvent(InheritedIfaceStruct[] iiSlice);
-    event InheritedIfaceStructSliceEventIndexed(
-        InheritedIfaceStruct[] indexed iiSlice
-    );
+    event InheritedIfaceStructSliceEventIndexed(InheritedIfaceStruct[] indexed iiSlice);
 }

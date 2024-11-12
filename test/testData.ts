@@ -99,10 +99,8 @@ export const bytesStruct = {
   bytes28val: "0xbfe440e81ea63d5487fd0fe21d18b7236f5b89eba82a9d751428871d",
   bytes29val: "0x3fc055db2243faa2c9d7c44b2120f4629ccf687d8a49bbdddaf265936e",
   bytes30val: "0xb5cc62d3527f5d4efea25e9c9d317dd6c8cdcc2782c270c6657406f40f02",
-  bytes31val:
-    "0xe2a1c223cb01d53d1222f7056aeabc3e4abd98938c34dc47dd149ae59efaa8",
-  bytes32val:
-    "0xb83be4dc7e2520f08d164dc36ca20afa4ca5bab339c57743d3c3a26843907a74",
+  bytes31val: "0xe2a1c223cb01d53d1222f7056aeabc3e4abd98938c34dc47dd149ae59efaa8",
+  bytes32val: "0xb83be4dc7e2520f08d164dc36ca20afa4ca5bab339c57743d3c3a26843907a74",
 };
 
 export const mixedStruct = {

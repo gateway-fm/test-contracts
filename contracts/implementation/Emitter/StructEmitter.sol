@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
 
-import {IStructEmitter} from "./IStructEmitter.sol";
-import {StructLib} from "./StructLib.sol";
-import {InheritedContract} from "./InheritedContract.sol";
-import {ExternalContract} from "./ExternalContract.sol";
+import { IStructEmitter } from "./IStructEmitter.sol";
+import { StructLib } from "./StructLib.sol";
+import { InheritedContract } from "./InheritedContract.sol";
+import { ExternalContract } from "./ExternalContract.sol";
 
 contract StructEmitter is IStructEmitter, InheritedContract {
     SimpleStruct private sStruct =
@@ -31,9 +31,7 @@ contract StructEmitter is IStructEmitter, InheritedContract {
             ["simple struct desc", "simple struct desc", "simple struct desc"],
             [bytes("data"), bytes("data"), bytes("data")],
             [
-                bytes32(
-                    0x24cbdd35ca3e3365a8891ab64674eb4646ace9d27516fcdbd92489b65a557ae1
-                ),
+                bytes32(0x24cbdd35ca3e3365a8891ab64674eb4646ace9d27516fcdbd92489b65a557ae1),
                 0x187611a788d8f6a946739300b443fd60248d927bb61c115429e45dcf57464543,
                 0x7286d2184e53d98ae9feb70c00b7da532c2c00ed0177b3262df63c262c2180b4
             ]

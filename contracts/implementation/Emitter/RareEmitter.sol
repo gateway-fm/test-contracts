@@ -130,12 +130,7 @@ contract RareEmitter {
 
     event AnonymousEvent(int8 a, int8 b, int8 c, int8 d) anonymous;
 
-    event AnonymousEventIndexed(
-        int8 indexed a,
-        int8 indexed b,
-        int8 indexed c,
-        int8 indexed d
-    ) anonymous;
+    event AnonymousEventIndexed(int8 indexed a, int8 indexed b, int8 indexed c, int8 indexed d) anonymous;
 
     function emitEvents() external {
         emit OverloadedEvent(1);
@@ -149,17 +144,13 @@ contract RareEmitter {
         emit Int256CustomEvent(Int256Custom.wrap(1));
         emit Int8CustomEvent(Int8Custom.wrap(1));
         emit BoolCustomEvent(BoolCustom.wrap(true));
-        emit AddressCustomEvent(
-            AddressCustom.wrap(0x8382Be7cc5C2Cd8b14F44108444ced6745c5feCb)
-        );
+        emit AddressCustomEvent(AddressCustom.wrap(0x8382Be7cc5C2Cd8b14F44108444ced6745c5feCb));
         emit Uint256CustomEventIndexed(Uint256Custom.wrap(1));
         emit Uint8CustomEventIndexed(Uint8Custom.wrap(1));
         emit Int256CustomEventIndexed(Int256Custom.wrap(1));
         emit Int8CustomEventIndexed(Int8Custom.wrap(1));
         emit BoolCustomEventIndexed(BoolCustom.wrap(true));
-        emit AddressCustomEventIndexed(
-            AddressCustom.wrap(0x8382Be7cc5C2Cd8b14F44108444ced6745c5feCb)
-        );
+        emit AddressCustomEventIndexed(AddressCustom.wrap(0x8382Be7cc5C2Cd8b14F44108444ced6745c5feCb));
 
         emit Bytes1CustomEvent(Bytes1Custom.wrap(bytes1("a")));
         emit Bytes2CustomEvent(Bytes2Custom.wrap(bytes2("a")));

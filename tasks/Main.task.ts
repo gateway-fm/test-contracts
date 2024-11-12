@@ -12,7 +12,5 @@ task("SaveContractABI", "Save contract ABI")
 task("Balance", "Check deployer balance").setAction(async (args, hre) => {
   const [deployer] = await hre.ethers.getSigners();
   const balance = await hre.ethers.provider.getBalance(deployer);
-  console.log(
-    `Address: ${deployer.address}, balance: ${hre.ethers.formatEther(balance)}`
-  );
+  console.log(`Address: ${deployer.address}, balance: ${hre.ethers.formatEther(balance)}`);
 });

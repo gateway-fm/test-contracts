@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
 
-import {IBytesEmitter} from "./IBytesEmitter.sol";
+import { IBytesEmitter } from "./IBytesEmitter.sol";
 
 contract BytesEmitter is IBytesEmitter {
     bytes1 private bytes1Val = 0x6c;
@@ -26,68 +26,41 @@ contract BytesEmitter is IBytesEmitter {
     bytes20 private bytes20Val = bytes20("a"); //0xef51eff0c15915ba18027ffdde9d22fa8fdc7460
     bytes21 private bytes21Val = 0xc293236f44a4c44b4bc41a1a4fb7bf94aa7058da18;
     bytes22 private bytes22Val = 0x942a4034dd2c35e6c5f23d8315057b2a6ffc5ddd2008;
-    bytes23 private bytes23Val =
-        0xa111cd4234ae549ee75ac7b0393b7d35e9c13ad15c9ff0;
-    bytes24 private bytes24Val =
-        0xae72a72b24eef48a41d02083297a9f8c0bd55aae4111a021;
-    bytes25 private bytes25Val =
-        0x663d9edf294a6447a6acc059dc6c33c8bad21f9e890c5c9151;
-    bytes26 private bytes26Val =
-        0x3c8419c136fa556b5b924c2c1fc12cff49341b213f05dffe251e;
-    bytes27 private bytes27Val =
-        0x197dd091fe7878a346f960ca847398d0048f8fd4f14752ae8f3877;
-    bytes28 private bytes28Val =
-        0x36133e7f2627a27dd1818ed1a5f8cf6d48f924383ead74098b457f44;
-    bytes29 private bytes29Val =
-        0xe44855fd49fb8db8ace474a32a0fe253ae75f66ca8d3a9647e869dfca1;
-    bytes30 private bytes30Val =
-        0x20d96bc2b23d13ae0a7b8a47eb1ea7a547099e6464c13782a69ab5f794df;
-    bytes31 private bytes31Val =
-        0x2276c2c43b41921559ae6a0c5d319d682ecdf3e0ba7b42a50dfa1c241df3c7;
-    bytes32 private bytes32Val =
-        0x5ca9276b03611ad4914ee390ec1ac27ec1e09b2f4f3f2fc152944daa57f1b9ae;
+    bytes23 private bytes23Val = 0xa111cd4234ae549ee75ac7b0393b7d35e9c13ad15c9ff0;
+    bytes24 private bytes24Val = 0xae72a72b24eef48a41d02083297a9f8c0bd55aae4111a021;
+    bytes25 private bytes25Val = 0x663d9edf294a6447a6acc059dc6c33c8bad21f9e890c5c9151;
+    bytes26 private bytes26Val = 0x3c8419c136fa556b5b924c2c1fc12cff49341b213f05dffe251e;
+    bytes27 private bytes27Val = 0x197dd091fe7878a346f960ca847398d0048f8fd4f14752ae8f3877;
+    bytes28 private bytes28Val = 0x36133e7f2627a27dd1818ed1a5f8cf6d48f924383ead74098b457f44;
+    bytes29 private bytes29Val = 0xe44855fd49fb8db8ace474a32a0fe253ae75f66ca8d3a9647e869dfca1;
+    bytes30 private bytes30Val = 0x20d96bc2b23d13ae0a7b8a47eb1ea7a547099e6464c13782a69ab5f794df;
+    bytes31 private bytes31Val = 0x2276c2c43b41921559ae6a0c5d319d682ecdf3e0ba7b42a50dfa1c241df3c7;
+    bytes32 private bytes32Val = 0x5ca9276b03611ad4914ee390ec1ac27ec1e09b2f4f3f2fc152944daa57f1b9ae;
 
-    bytes private bytesVal =
-        "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq";
+    bytes private bytesVal = "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq";
 
     bytes1[3] private bytes1Array = [bytes1(0x3d), 0x5d, 0xad];
     bytes32[3] private bytes32Array = [
-        bytes32(
-            0xd83dbbbe9e53bc8e4a5406407f1574670bfcd9371099048bc6b92f0f1f60ab40
-        ),
+        bytes32(0xd83dbbbe9e53bc8e4a5406407f1574670bfcd9371099048bc6b92f0f1f60ab40),
         0xbf72f76c216df08335cc4d65007510c4e05fbe61e5289b2814e62f79de3e82a2,
         0x7092d6c0b7d85580da9bee023dd4b4076c30a40261661d45fbfe17b748d17ce6
     ];
     bytes[3] private bytesArray = [
-        bytes(
-            "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
-        ),
-        bytes(
-            "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqa"
-        ),
-        bytes(
-            "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqb"
-        )
+        bytes("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"),
+        bytes("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqa"),
+        bytes("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqb")
     ];
 
     bytes1[] private bytes1Slice = [bytes1(0x3d), 0x5d, 0xad];
     bytes32[] private bytes32Slice = [
-        bytes32(
-            0xd83dbbbe9e53bc8e4a5406407f1574670bfcd9371099048bc6b92f0f1f60ab40
-        ),
+        bytes32(0xd83dbbbe9e53bc8e4a5406407f1574670bfcd9371099048bc6b92f0f1f60ab40),
         0xbf72f76c216df08335cc4d65007510c4e05fbe61e5289b2814e62f79de3e82a2,
         0x7092d6c0b7d85580da9bee023dd4b4076c30a40261661d45fbfe17b748d17ce6
     ];
     bytes[] private bytesSlice = [
-        bytes(
-            "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"
-        ),
-        bytes(
-            "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqa"
-        ),
-        bytes(
-            "qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqb"
-        )
+        bytes("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq"),
+        bytes("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqa"),
+        bytes("qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqb")
     ];
 
     function emitBytesEvents() external {

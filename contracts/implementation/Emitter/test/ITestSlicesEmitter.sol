@@ -230,9 +230,5 @@ interface ITestSlicesEmitter {
         bytes32[] bytes32slice
     );
 
-    event MixedSlicesEvent(
-        bool[] boolSlice,
-        string[] stringSlice,
-        bytes[] bytesSlice
-    );
+    event MixedSlicesEvent(bool[] boolSlice, string[] stringSlice, bytes[] bytesSlice);
 }

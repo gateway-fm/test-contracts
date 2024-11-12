@@ -230,9 +230,5 @@ interface ITestArraysEmitter {
         bytes32[3] bytes32array
     );
 
-    event MixedArraysEvent(
-        bool[3] boolArray,
-        string[3] stringArray,
-        bytes[3] bytesArray
-    );
+    event MixedArraysEvent(bool[3] boolArray, string[3] stringArray, bytes[3] bytesArray);
 }

@@ -1,14 +1,7 @@
 import { HardhatRuntimeEnvironment } from "hardhat/types";
-import { getContractAddress, saveContractData } from "./contractData";
-import { ContractRegisterName } from "../../configs/constants";
-import { verifyProxy } from "./verify";
-import { Contract, ContractFactory } from "ethers";
+import { saveContractData } from "./contractData";
 
-export async function deployContract(
-  hre: HardhatRuntimeEnvironment,
-  contractName: string,
-  args: unknown[]
-) {
+export async function deployContract(hre: HardhatRuntimeEnvironment, contractName: string, args: unknown[]) {
   const [deployer] = await hre.ethers.getSigners();
 
   if (!hre.ethers.isAddress(deployer.address)) {
@@ -16,7 +9,7 @@ export async function deployContract(
   }
 
   console.log(
-    `Deploying contract ${contractName} to ${hre.network.name} network. Deployer address ${deployer.address}`
+    `Deploying contract ${contractName} to ${hre.network.name} network. Deployer address ${deployer.address}`,
   );
 
   const art = await hre.artifacts.readArtifact(contractName);
@@ -28,9 +21,7 @@ export async function deployContract(
 
   console.log(`Deployment estimation gas ${gas.toString()}`);
 
-  const deployerBalance = await hre.ethers.provider.getBalance(
-    deployer.address
-  );
+  const deployerBalance = await hre.ethers.provider.getBalance(deployer.address);
 
   console.log(`Deployer balance ${hre.ethers.formatEther(deployerBalance)}`);
 
@@ -39,9 +30,7 @@ export async function deployContract(
 
   const contractAddress = await contract.getAddress();
 
-  console.log(
-    `Contract ${contractName} deployed to address ${contractAddress}`
-  );
+  console.log(`Contract ${contractName} deployed to address ${contractAddress}`);
 
   const chainId = hre.network.config.chainId ?? 0;
   const networkName = hre.network.name;
@@ -49,7 +38,7 @@ export async function deployContract(
 
   if (networkName != "hardhat" && networkName != "localhost") {
     console.log("Waiting 15 seconds before etherscan verification...");
-    await new Promise((f) => setTimeout(f, 15000));
+    await new Promise(f => setTimeout(f, 15000));
 
     try {
       await hre.run("verify:verify", {
@@ -64,11 +53,7 @@ export async function deployContract(
   return contractAddress;
 }
 
-export async function deployProxy(
-  hre: HardhatRuntimeEnvironment,
-  contractName: string,
-  args: unknown[]
-) {
+/*export async function deployProxy(hre: HardhatRuntimeEnvironment, contractName: string, args: unknown[]) {
   const [deployer] = await hre.ethers.getSigners();
 
   const register = getContractAddress(hre, ContractRegisterName);
@@ -81,7 +66,7 @@ export async function deployProxy(
   }
 
   console.log(
-    `Deploying contract ${contractName} to ${hre.network.name} network. Deployer address ${deployer.address}`
+    `Deploying contract ${contractName} to ${hre.network.name} network. Deployer address ${deployer.address}`,
   );
 
   let contract: Contract;
@@ -89,13 +74,9 @@ export async function deployProxy(
 
   try {
     contractFactory = await hre.ethers.getContractFactory(contractName);
-    contract = await hre.upgrades.deployProxy(
-      contractFactory,
-      [register, ...args],
-      {
-        initializer: "init",
-      }
-    );
+    contract = await hre.upgrades.deployProxy(contractFactory, [register, ...args], {
+      initializer: "init",
+    });
     await contract.waitForDeployment();
   } catch (e) {
     const err = e as Error;
@@ -104,8 +85,7 @@ export async function deployProxy(
   }
 
   const proxyAddress = await contract.getAddress();
-  const implementationAddress =
-    await hre.upgrades.erc1967.getImplementationAddress(proxyAddress);
+  const implementationAddress = await hre.upgrades.erc1967.getImplementationAddress(proxyAddress);
   const adminAddress = await hre.upgrades.erc1967.getAdminAddress(proxyAddress);
 
   console.log(`Proxy-contract: ${proxyAddress}`);
@@ -115,19 +95,14 @@ export async function deployProxy(
   const chainID = hre.network.config.chainId ?? 0;
   const networkName = hre.network.name;
 
-  saveContractData(
-    chainID,
-    networkName,
-    contractFactory,
-    proxyAddress,
-    contractName
-  );
+  saveContractData(chainID, networkName, contractFactory, proxyAddress, contractName);
 
   if (networkName != "hardhat" && networkName != "localhost") {
     console.log("Waiting 15 seconds before etherscan verification...");
-    await new Promise((f) => setTimeout(f, 15000));
+    await new Promise(f => setTimeout(f, 15000));
 
     await verifyProxy(hre, contractName);
   }
   return { proxyAddress, implementationAddress, adminAddress };
 }
+*/

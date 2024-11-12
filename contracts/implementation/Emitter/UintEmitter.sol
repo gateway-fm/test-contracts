@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.24;
 
-import {IUintEvents} from "./IUintEvents.sol";
+import { IUintEvents } from "./IUintEvents.sol";
 
 contract UintEmitter is IUintEvents {
     uint8 private uint8Val;

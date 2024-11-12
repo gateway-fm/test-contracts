@@ -1,17 +1,7 @@
 import path from "path";
 import fs from "fs";
-import { ContractFactory } from "ethers";
-import {
-  Artifact,
-  CompilerInput,
-  HardhatRuntimeEnvironment,
-} from "hardhat/types";
-import {
-  abisDir,
-  addressesDir,
-  binsDir,
-  contractsInfoDir,
-} from "../../configs/constants";
+import { Artifact, CompilerInput, HardhatRuntimeEnvironment } from "hardhat/types";
+import { abisDir, addressesDir, binsDir, contractsInfoDir } from "../../configs/constants";
 
 /**
  * saveContractData is used to save all necessary contract data after deploy.
@@ -28,7 +18,7 @@ export function saveContractData(
   networkName: string,
   artifact: Artifact,
   contractAddress: string,
-  contractName: string
+  contractName: string,
 ) {
   saveContractAddress(chainId, networkName, contractAddress, contractName);
   if (networkName != "hardhat" && networkName != "localhost") {
@@ -50,7 +40,7 @@ export function saveContractAddress(
   chainId: number,
   networkName: string,
   contractAddress: string,
-  contractName: string
+  contractName: string,
 ) {
   ensureDir(addressesDir);
 
@@ -84,19 +74,12 @@ export function saveContractAddress(
  * @param networkName - name of the network on which the contract was deployed;
  * @param contractName - name of the contract.
  */
-export function saveContractByteCode(
-  bytecode: string,
-  networkName: string,
-  contractName: string
-) {
+export function saveContractByteCode(bytecode: string, networkName: string, contractName: string) {
   const networkDir = path.join(binsDir, networkName);
   ensureDir(networkDir);
 
   try {
-    fs.writeFileSync(
-      path.join(networkDir, `${contractName}-bytecode.bin`),
-      bytecode
-    );
+    fs.writeFileSync(path.join(networkDir, `${contractName}-bytecode.bin`), bytecode);
   } catch (e) {
     const err = e as Error;
     throw new Error(`Save contract bytecode: ${err.message}`);
@@ -111,19 +94,13 @@ export function saveContractByteCode(
  * @param networkName - name of the network on which the contract was deployed;
  * @param contractName - name of the contract.
  */
-export function saveContractAbi(
-  contractAbi: any,
-  networkName: string,
-  contractName: string
-) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export function saveContractAbi(contractAbi: any, networkName: string, contractName: string) {
   const networkDir = path.join(abisDir, networkName);
   ensureDir(networkDir);
 
   try {
-    fs.writeFileSync(
-      path.join(networkDir, `${contractName}-abi.json`),
-      JSON.stringify(contractAbi, undefined, 2)
-    );
+    fs.writeFileSync(path.join(networkDir, `${contractName}-abi.json`), JSON.stringify(contractAbi, undefined, 2));
   } catch (e) {
     throw new Error(`Save abi ${e}`);
   }
@@ -143,7 +120,7 @@ export function saveCompilerInputs(
   contractName: string,
   contractFQN: string,
   compilerVersion: string,
-  sourceCode: CompilerInput
+  sourceCode: CompilerInput,
 ) {
   const networkDir = path.join(contractsInfoDir, networkName);
   ensureDir(networkDir);
@@ -157,28 +134,21 @@ export function saveCompilerInputs(
   try {
     fs.writeFileSync(
       path.join(networkDir, `${contractName}-contractInfo.json`),
-      JSON.stringify(contractInfo, undefined, 2)
+      JSON.stringify(contractInfo, undefined, 2),
     );
   } catch (e) {
     throw new Error(`Save contract info: ${e}`);
   }
 }
 
-export function getContractAddress(
-  hre: HardhatRuntimeEnvironment,
-  contractName: string
-) {
+export function getContractAddress(hre: HardhatRuntimeEnvironment, contractName: string) {
   const chainID = hre.network.config.chainId ?? 0;
   const networkName = hre.network.name;
 
   try {
-    const address = JSON.parse(
-      fs
-        .readFileSync(
-          path.join(addressesDir, `/${chainID}-${networkName}.json`)
-        )
-        .toString()
-    )[contractName];
+    const address = JSON.parse(fs.readFileSync(path.join(addressesDir, `/${chainID}-${networkName}.json`)).toString())[
+      contractName
+    ];
     return address as string;
   } catch (e) {
     throw new Error(`Parse address ${e}`);

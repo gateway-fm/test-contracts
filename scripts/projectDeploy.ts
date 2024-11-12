@@ -1,4 +1,4 @@
-import { HardhatRuntimeEnvironment } from "hardhat/types";
+/*import { HardhatRuntimeEnvironment } from "hardhat/types";
 import { getContractRegisterContract } from "./utils/getContracts";
 import { ContractRegister } from "../typechain-types";
 import { ContractRegisterName } from "../configs/constants";
@@ -34,3 +34,4 @@ async function _deployAndSetAddress(
   }
   return proxyAddress;
 }
+*/
