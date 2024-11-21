@@ -27,5 +27,5 @@ Default network: user network (set by the env var values)
 run following command:
 
 ```shell
-yarn hardhat ignition deploy ignition/modules/eventMinter/EventMinter.ts  
+yarn hardhat ignition deploy ignition/modules/eventMinter/EventMinter.ts
 ```

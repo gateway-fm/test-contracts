@@ -1,0 +1,350 @@
+[
+  {
+    "inputs": [],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address[3]",
+        "name": "addressArray",
+        "type": "address[3]"
+      }
+    ],
+    "name": "AddressArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address[3]",
+        "name": "addressArray",
+        "type": "address[3]"
+      }
+    ],
+    "name": "AddressArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address",
+        "name": "wallet",
+        "type": "address"
+      }
+    ],
+    "name": "AddressEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
+        "name": "wallet",
+        "type": "address"
+      }
+    ],
+    "name": "AddressEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "address[]",
+        "name": "addressSlice",
+        "type": "address[]"
+      }
+    ],
+    "name": "AddressSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address[]",
+        "name": "addressSlice",
+        "type": "address[]"
+      }
+    ],
+    "name": "AddressSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool[3]",
+        "name": "boolArray",
+        "type": "bool[3]"
+      }
+    ],
+    "name": "BoolArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bool[3]",
+        "name": "boolArray",
+        "type": "bool[3]"
+      }
+    ],
+    "name": "BoolArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "trueVal",
+        "type": "bool"
+      },
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "falseVal",
+        "type": "bool"
+      }
+    ],
+    "name": "BoolEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bool",
+        "name": "trueVal",
+        "type": "bool"
+      },
+      {
+        "indexed": true,
+        "internalType": "bool",
+        "name": "falseVal",
+        "type": "bool"
+      }
+    ],
+    "name": "BoolEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool[]",
+        "name": "boolSlice",
+        "type": "bool[]"
+      }
+    ],
+    "name": "BoolSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bool[]",
+        "name": "boolSlice",
+        "type": "bool[]"
+      }
+    ],
+    "name": "BoolSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "enum IEmitter.Enums[3]",
+        "name": "enums",
+        "type": "uint8[3]"
+      }
+    ],
+    "name": "EnumArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "enum IEmitter.Enums[3]",
+        "name": "enums",
+        "type": "uint8[3]"
+      }
+    ],
+    "name": "EnumArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "enum IEmitter.Enums",
+        "name": "f",
+        "type": "uint8"
+      },
+      {
+        "indexed": false,
+        "internalType": "enum IEmitter.Enums",
+        "name": "s",
+        "type": "uint8"
+      }
+    ],
+    "name": "EnumEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "enum IEmitter.Enums",
+        "name": "f",
+        "type": "uint8"
+      },
+      {
+        "indexed": true,
+        "internalType": "enum IEmitter.Enums",
+        "name": "s",
+        "type": "uint8"
+      }
+    ],
+    "name": "EnumEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "enum IEmitter.Enums[]",
+        "name": "enums",
+        "type": "uint8[]"
+      }
+    ],
+    "name": "EnumSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "enum IEmitter.Enums[]",
+        "name": "enums",
+        "type": "uint8[]"
+      }
+    ],
+    "name": "EnumSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string[3]",
+        "name": "stringArray",
+        "type": "string[3]"
+      }
+    ],
+    "name": "StringArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "string[3]",
+        "name": "stringArray",
+        "type": "string[3]"
+      }
+    ],
+    "name": "StringArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "str",
+        "type": "string"
+      }
+    ],
+    "name": "StringEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "string",
+        "name": "str",
+        "type": "string"
+      }
+    ],
+    "name": "StringEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string[]",
+        "name": "stringSlice",
+        "type": "string[]"
+      }
+    ],
+    "name": "StringSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "string[]",
+        "name": "stringSlice",
+        "type": "string[]"
+      }
+    ],
+    "name": "StringSliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "emitAllEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

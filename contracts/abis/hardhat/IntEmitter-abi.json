@@ -1,0 +1,2540 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int104[3]",
+        "name": "intArray",
+        "type": "int104[3]"
+      }
+    ],
+    "name": "Int104ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int104[3]",
+        "name": "intArray",
+        "type": "int104[3]"
+      }
+    ],
+    "name": "Int104ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int104",
+        "name": "val",
+        "type": "int104"
+      }
+    ],
+    "name": "Int104Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int104",
+        "name": "val",
+        "type": "int104"
+      }
+    ],
+    "name": "Int104EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int104[]",
+        "name": "intSlice",
+        "type": "int104[]"
+      }
+    ],
+    "name": "Int104SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int104[]",
+        "name": "intSlice",
+        "type": "int104[]"
+      }
+    ],
+    "name": "Int104SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int112[3]",
+        "name": "intArray",
+        "type": "int112[3]"
+      }
+    ],
+    "name": "Int112ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int112[3]",
+        "name": "intArray",
+        "type": "int112[3]"
+      }
+    ],
+    "name": "Int112ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int112",
+        "name": "val",
+        "type": "int112"
+      }
+    ],
+    "name": "Int112Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int112",
+        "name": "val",
+        "type": "int112"
+      }
+    ],
+    "name": "Int112EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int112[]",
+        "name": "intSlice",
+        "type": "int112[]"
+      }
+    ],
+    "name": "Int112SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int112[]",
+        "name": "intSlice",
+        "type": "int112[]"
+      }
+    ],
+    "name": "Int112SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int120[3]",
+        "name": "intArray",
+        "type": "int120[3]"
+      }
+    ],
+    "name": "Int120ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int120[3]",
+        "name": "intArray",
+        "type": "int120[3]"
+      }
+    ],
+    "name": "Int120ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int120",
+        "name": "val",
+        "type": "int120"
+      }
+    ],
+    "name": "Int120Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int120",
+        "name": "val",
+        "type": "int120"
+      }
+    ],
+    "name": "Int120EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int120[]",
+        "name": "intSlice",
+        "type": "int120[]"
+      }
+    ],
+    "name": "Int120SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int120[]",
+        "name": "intSlice",
+        "type": "int120[]"
+      }
+    ],
+    "name": "Int120SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int128[3]",
+        "name": "intArray",
+        "type": "int128[3]"
+      }
+    ],
+    "name": "Int128ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int128[3]",
+        "name": "intArray",
+        "type": "int128[3]"
+      }
+    ],
+    "name": "Int128ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int128",
+        "name": "val",
+        "type": "int128"
+      }
+    ],
+    "name": "Int128Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int128",
+        "name": "val",
+        "type": "int128"
+      }
+    ],
+    "name": "Int128EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int128[]",
+        "name": "intSlice",
+        "type": "int128[]"
+      }
+    ],
+    "name": "Int128SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int128[]",
+        "name": "intSlice",
+        "type": "int128[]"
+      }
+    ],
+    "name": "Int128SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int136[3]",
+        "name": "intArray",
+        "type": "int136[3]"
+      }
+    ],
+    "name": "Int136ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int136[3]",
+        "name": "intArray",
+        "type": "int136[3]"
+      }
+    ],
+    "name": "Int136ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int136",
+        "name": "val",
+        "type": "int136"
+      }
+    ],
+    "name": "Int136Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int136",
+        "name": "val",
+        "type": "int136"
+      }
+    ],
+    "name": "Int136EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int136[]",
+        "name": "intSlice",
+        "type": "int136[]"
+      }
+    ],
+    "name": "Int136SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int136[]",
+        "name": "intSlice",
+        "type": "int136[]"
+      }
+    ],
+    "name": "Int136SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int144[3]",
+        "name": "intArray",
+        "type": "int144[3]"
+      }
+    ],
+    "name": "Int144ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int144[3]",
+        "name": "intArray",
+        "type": "int144[3]"
+      }
+    ],
+    "name": "Int144ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int144",
+        "name": "val",
+        "type": "int144"
+      }
+    ],
+    "name": "Int144Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int144",
+        "name": "val",
+        "type": "int144"
+      }
+    ],
+    "name": "Int144EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int144[]",
+        "name": "intSlice",
+        "type": "int144[]"
+      }
+    ],
+    "name": "Int144SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int144[]",
+        "name": "intSlice",
+        "type": "int144[]"
+      }
+    ],
+    "name": "Int144SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int152[3]",
+        "name": "intArray",
+        "type": "int152[3]"
+      }
+    ],
+    "name": "Int152ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int152[3]",
+        "name": "intArray",
+        "type": "int152[3]"
+      }
+    ],
+    "name": "Int152ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int152",
+        "name": "val",
+        "type": "int152"
+      }
+    ],
+    "name": "Int152Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int152",
+        "name": "val",
+        "type": "int152"
+      }
+    ],
+    "name": "Int152EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int152[]",
+        "name": "intSlice",
+        "type": "int152[]"
+      }
+    ],
+    "name": "Int152SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int152[]",
+        "name": "intSlice",
+        "type": "int152[]"
+      }
+    ],
+    "name": "Int152SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int160[3]",
+        "name": "intArray",
+        "type": "int160[3]"
+      }
+    ],
+    "name": "Int160ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int160[3]",
+        "name": "intArray",
+        "type": "int160[3]"
+      }
+    ],
+    "name": "Int160ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int160",
+        "name": "val",
+        "type": "int160"
+      }
+    ],
+    "name": "Int160Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int160",
+        "name": "val",
+        "type": "int160"
+      }
+    ],
+    "name": "Int160EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int160[]",
+        "name": "intSlice",
+        "type": "int160[]"
+      }
+    ],
+    "name": "Int160SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int160[]",
+        "name": "intSlice",
+        "type": "int160[]"
+      }
+    ],
+    "name": "Int160SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int168[3]",
+        "name": "intArray",
+        "type": "int168[3]"
+      }
+    ],
+    "name": "Int168ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int168[3]",
+        "name": "intArray",
+        "type": "int168[3]"
+      }
+    ],
+    "name": "Int168ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int168",
+        "name": "val",
+        "type": "int168"
+      }
+    ],
+    "name": "Int168Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int168",
+        "name": "val",
+        "type": "int168"
+      }
+    ],
+    "name": "Int168EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int168[]",
+        "name": "intSlice",
+        "type": "int168[]"
+      }
+    ],
+    "name": "Int168SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int168[]",
+        "name": "intSlice",
+        "type": "int168[]"
+      }
+    ],
+    "name": "Int168SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int16[3]",
+        "name": "intArray",
+        "type": "int16[3]"
+      }
+    ],
+    "name": "Int16ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int16[3]",
+        "name": "intArray",
+        "type": "int16[3]"
+      }
+    ],
+    "name": "Int16ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int16",
+        "name": "val",
+        "type": "int16"
+      }
+    ],
+    "name": "Int16Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int16",
+        "name": "val",
+        "type": "int16"
+      }
+    ],
+    "name": "Int16EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int16[]",
+        "name": "intSlice",
+        "type": "int16[]"
+      }
+    ],
+    "name": "Int16SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int16[]",
+        "name": "intSlice",
+        "type": "int16[]"
+      }
+    ],
+    "name": "Int16SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int176[3]",
+        "name": "intArray",
+        "type": "int176[3]"
+      }
+    ],
+    "name": "Int176ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int176[3]",
+        "name": "intArray",
+        "type": "int176[3]"
+      }
+    ],
+    "name": "Int176ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int176",
+        "name": "val",
+        "type": "int176"
+      }
+    ],
+    "name": "Int176Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int176",
+        "name": "val",
+        "type": "int176"
+      }
+    ],
+    "name": "Int176EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int176[]",
+        "name": "intSlice",
+        "type": "int176[]"
+      }
+    ],
+    "name": "Int176SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int176[]",
+        "name": "intSlice",
+        "type": "int176[]"
+      }
+    ],
+    "name": "Int176SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int184[3]",
+        "name": "intArray",
+        "type": "int184[3]"
+      }
+    ],
+    "name": "Int184ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int184[3]",
+        "name": "intArray",
+        "type": "int184[3]"
+      }
+    ],
+    "name": "Int184ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int184",
+        "name": "val",
+        "type": "int184"
+      }
+    ],
+    "name": "Int184Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int184",
+        "name": "val",
+        "type": "int184"
+      }
+    ],
+    "name": "Int184EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int184[]",
+        "name": "intSlice",
+        "type": "int184[]"
+      }
+    ],
+    "name": "Int184SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int184[]",
+        "name": "intSlice",
+        "type": "int184[]"
+      }
+    ],
+    "name": "Int184SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int192[3]",
+        "name": "intArray",
+        "type": "int192[3]"
+      }
+    ],
+    "name": "Int192ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int192[3]",
+        "name": "intArray",
+        "type": "int192[3]"
+      }
+    ],
+    "name": "Int192ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int192",
+        "name": "val",
+        "type": "int192"
+      }
+    ],
+    "name": "Int192Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int192",
+        "name": "val",
+        "type": "int192"
+      }
+    ],
+    "name": "Int192EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int192[]",
+        "name": "intSlice",
+        "type": "int192[]"
+      }
+    ],
+    "name": "Int192SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int192[]",
+        "name": "intSlice",
+        "type": "int192[]"
+      }
+    ],
+    "name": "Int192SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int200[3]",
+        "name": "intArray",
+        "type": "int200[3]"
+      }
+    ],
+    "name": "Int200ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int200[3]",
+        "name": "intArray",
+        "type": "int200[3]"
+      }
+    ],
+    "name": "Int200ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int200",
+        "name": "val",
+        "type": "int200"
+      }
+    ],
+    "name": "Int200Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int200",
+        "name": "val",
+        "type": "int200"
+      }
+    ],
+    "name": "Int200EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int200[]",
+        "name": "intSlice",
+        "type": "int200[]"
+      }
+    ],
+    "name": "Int200SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int200[]",
+        "name": "intSlice",
+        "type": "int200[]"
+      }
+    ],
+    "name": "Int200SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int208[3]",
+        "name": "intArray",
+        "type": "int208[3]"
+      }
+    ],
+    "name": "Int208ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int208[3]",
+        "name": "intArray",
+        "type": "int208[3]"
+      }
+    ],
+    "name": "Int208ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int208",
+        "name": "val",
+        "type": "int208"
+      }
+    ],
+    "name": "Int208Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int208",
+        "name": "val",
+        "type": "int208"
+      }
+    ],
+    "name": "Int208EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int208[]",
+        "name": "intSlice",
+        "type": "int208[]"
+      }
+    ],
+    "name": "Int208SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int208[]",
+        "name": "intSlice",
+        "type": "int208[]"
+      }
+    ],
+    "name": "Int208SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int216[3]",
+        "name": "intArray",
+        "type": "int216[3]"
+      }
+    ],
+    "name": "Int216ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int216[3]",
+        "name": "intArray",
+        "type": "int216[3]"
+      }
+    ],
+    "name": "Int216ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int216",
+        "name": "val",
+        "type": "int216"
+      }
+    ],
+    "name": "Int216Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int216",
+        "name": "val",
+        "type": "int216"
+      }
+    ],
+    "name": "Int216EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int216[]",
+        "name": "intSlice",
+        "type": "int216[]"
+      }
+    ],
+    "name": "Int216SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int216[]",
+        "name": "intSlice",
+        "type": "int216[]"
+      }
+    ],
+    "name": "Int216SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int224[3]",
+        "name": "intArray",
+        "type": "int224[3]"
+      }
+    ],
+    "name": "Int224ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int224[3]",
+        "name": "intArray",
+        "type": "int224[3]"
+      }
+    ],
+    "name": "Int224ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int224",
+        "name": "val",
+        "type": "int224"
+      }
+    ],
+    "name": "Int224Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int224",
+        "name": "val",
+        "type": "int224"
+      }
+    ],
+    "name": "Int224EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int224[]",
+        "name": "intSlice",
+        "type": "int224[]"
+      }
+    ],
+    "name": "Int224SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int224[]",
+        "name": "intSlice",
+        "type": "int224[]"
+      }
+    ],
+    "name": "Int224SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int232[3]",
+        "name": "intArray",
+        "type": "int232[3]"
+      }
+    ],
+    "name": "Int232ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int232[3]",
+        "name": "intArray",
+        "type": "int232[3]"
+      }
+    ],
+    "name": "Int232ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int232",
+        "name": "val",
+        "type": "int232"
+      }
+    ],
+    "name": "Int232Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int232",
+        "name": "val",
+        "type": "int232"
+      }
+    ],
+    "name": "Int232EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int232[]",
+        "name": "intSlice",
+        "type": "int232[]"
+      }
+    ],
+    "name": "Int232SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int232[]",
+        "name": "intSlice",
+        "type": "int232[]"
+      }
+    ],
+    "name": "Int232SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int240[3]",
+        "name": "intArray",
+        "type": "int240[3]"
+      }
+    ],
+    "name": "Int240ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int240[3]",
+        "name": "intArray",
+        "type": "int240[3]"
+      }
+    ],
+    "name": "Int240ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int240",
+        "name": "val",
+        "type": "int240"
+      }
+    ],
+    "name": "Int240Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int240",
+        "name": "val",
+        "type": "int240"
+      }
+    ],
+    "name": "Int240EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int240[]",
+        "name": "intSlice",
+        "type": "int240[]"
+      }
+    ],
+    "name": "Int240SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int240[]",
+        "name": "intSlice",
+        "type": "int240[]"
+      }
+    ],
+    "name": "Int240SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int248[3]",
+        "name": "intArray",
+        "type": "int248[3]"
+      }
+    ],
+    "name": "Int248ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int248[3]",
+        "name": "intArray",
+        "type": "int248[3]"
+      }
+    ],
+    "name": "Int248ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int248",
+        "name": "val",
+        "type": "int248"
+      }
+    ],
+    "name": "Int248Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int248",
+        "name": "val",
+        "type": "int248"
+      }
+    ],
+    "name": "Int248EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int248[]",
+        "name": "intSlice",
+        "type": "int248[]"
+      }
+    ],
+    "name": "Int248SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int248[]",
+        "name": "intSlice",
+        "type": "int248[]"
+      }
+    ],
+    "name": "Int248SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int24[3]",
+        "name": "intArray",
+        "type": "int24[3]"
+      }
+    ],
+    "name": "Int24ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int24[3]",
+        "name": "intArray",
+        "type": "int24[3]"
+      }
+    ],
+    "name": "Int24ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int24",
+        "name": "val",
+        "type": "int24"
+      }
+    ],
+    "name": "Int24Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int24",
+        "name": "val",
+        "type": "int24"
+      }
+    ],
+    "name": "Int24EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int24[]",
+        "name": "intSlice",
+        "type": "int24[]"
+      }
+    ],
+    "name": "Int24SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int24[]",
+        "name": "intSlice",
+        "type": "int24[]"
+      }
+    ],
+    "name": "Int24SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int256[3]",
+        "name": "intArray",
+        "type": "int256[3]"
+      }
+    ],
+    "name": "Int256ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int256[3]",
+        "name": "intArray",
+        "type": "int256[3]"
+      }
+    ],
+    "name": "Int256ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int256",
+        "name": "val",
+        "type": "int256"
+      }
+    ],
+    "name": "Int256Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int256",
+        "name": "val",
+        "type": "int256"
+      }
+    ],
+    "name": "Int256EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int256[]",
+        "name": "intSlice",
+        "type": "int256[]"
+      }
+    ],
+    "name": "Int256SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int256[]",
+        "name": "intSlice",
+        "type": "int256[]"
+      }
+    ],
+    "name": "Int256SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int32[3]",
+        "name": "intArray",
+        "type": "int32[3]"
+      }
+    ],
+    "name": "Int32ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int32[3]",
+        "name": "intArray",
+        "type": "int32[3]"
+      }
+    ],
+    "name": "Int32ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int32",
+        "name": "val",
+        "type": "int32"
+      }
+    ],
+    "name": "Int32Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int32",
+        "name": "val",
+        "type": "int32"
+      }
+    ],
+    "name": "Int32EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int32[]",
+        "name": "intSlice",
+        "type": "int32[]"
+      }
+    ],
+    "name": "Int32SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int32[]",
+        "name": "intSlice",
+        "type": "int32[]"
+      }
+    ],
+    "name": "Int32SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int40[3]",
+        "name": "intArray",
+        "type": "int40[3]"
+      }
+    ],
+    "name": "Int40ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int40[3]",
+        "name": "intArray",
+        "type": "int40[3]"
+      }
+    ],
+    "name": "Int40ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int40",
+        "name": "val",
+        "type": "int40"
+      }
+    ],
+    "name": "Int40Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int40",
+        "name": "val",
+        "type": "int40"
+      }
+    ],
+    "name": "Int40EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int40[]",
+        "name": "intSlice",
+        "type": "int40[]"
+      }
+    ],
+    "name": "Int40SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int40[]",
+        "name": "intSlice",
+        "type": "int40[]"
+      }
+    ],
+    "name": "Int40SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int48[3]",
+        "name": "intArray",
+        "type": "int48[3]"
+      }
+    ],
+    "name": "Int48ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int48[3]",
+        "name": "intArray",
+        "type": "int48[3]"
+      }
+    ],
+    "name": "Int48ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int48",
+        "name": "val",
+        "type": "int48"
+      }
+    ],
+    "name": "Int48Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int48",
+        "name": "val",
+        "type": "int48"
+      }
+    ],
+    "name": "Int48EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int48[]",
+        "name": "intSlice",
+        "type": "int48[]"
+      }
+    ],
+    "name": "Int48SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int48[]",
+        "name": "intSlice",
+        "type": "int48[]"
+      }
+    ],
+    "name": "Int48SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int56[3]",
+        "name": "intArray",
+        "type": "int56[3]"
+      }
+    ],
+    "name": "Int56ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int56[3]",
+        "name": "intArray",
+        "type": "int56[3]"
+      }
+    ],
+    "name": "Int56ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int56",
+        "name": "val",
+        "type": "int56"
+      }
+    ],
+    "name": "Int56Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int56",
+        "name": "val",
+        "type": "int56"
+      }
+    ],
+    "name": "Int56EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int56[]",
+        "name": "intSlice",
+        "type": "int56[]"
+      }
+    ],
+    "name": "Int56SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int56[]",
+        "name": "intSlice",
+        "type": "int56[]"
+      }
+    ],
+    "name": "Int56SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int64[3]",
+        "name": "intArray",
+        "type": "int64[3]"
+      }
+    ],
+    "name": "Int64ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int64[3]",
+        "name": "intArray",
+        "type": "int64[3]"
+      }
+    ],
+    "name": "Int64ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int64",
+        "name": "val",
+        "type": "int64"
+      }
+    ],
+    "name": "Int64Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int64",
+        "name": "val",
+        "type": "int64"
+      }
+    ],
+    "name": "Int64EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int64[]",
+        "name": "intSlice",
+        "type": "int64[]"
+      }
+    ],
+    "name": "Int64SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int64[]",
+        "name": "intSlice",
+        "type": "int64[]"
+      }
+    ],
+    "name": "Int64SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int72[3]",
+        "name": "intArray",
+        "type": "int72[3]"
+      }
+    ],
+    "name": "Int72ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int72[3]",
+        "name": "intArray",
+        "type": "int72[3]"
+      }
+    ],
+    "name": "Int72ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int72",
+        "name": "val",
+        "type": "int72"
+      }
+    ],
+    "name": "Int72Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int72",
+        "name": "val",
+        "type": "int72"
+      }
+    ],
+    "name": "Int72EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int72[]",
+        "name": "intSlice",
+        "type": "int72[]"
+      }
+    ],
+    "name": "Int72SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int72[]",
+        "name": "intSlice",
+        "type": "int72[]"
+      }
+    ],
+    "name": "Int72SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int80[3]",
+        "name": "intArray",
+        "type": "int80[3]"
+      }
+    ],
+    "name": "Int80ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int80[3]",
+        "name": "intArray",
+        "type": "int80[3]"
+      }
+    ],
+    "name": "Int80ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int80",
+        "name": "val",
+        "type": "int80"
+      }
+    ],
+    "name": "Int80Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int80",
+        "name": "val",
+        "type": "int80"
+      }
+    ],
+    "name": "Int80EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int80[]",
+        "name": "intSlice",
+        "type": "int80[]"
+      }
+    ],
+    "name": "Int80SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int80[]",
+        "name": "intSlice",
+        "type": "int80[]"
+      }
+    ],
+    "name": "Int80SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int88[3]",
+        "name": "intArray",
+        "type": "int88[3]"
+      }
+    ],
+    "name": "Int88ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int88[3]",
+        "name": "intArray",
+        "type": "int88[3]"
+      }
+    ],
+    "name": "Int88ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int88",
+        "name": "val",
+        "type": "int88"
+      }
+    ],
+    "name": "Int88Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int88",
+        "name": "val",
+        "type": "int88"
+      }
+    ],
+    "name": "Int88EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int88[]",
+        "name": "intSlice",
+        "type": "int88[]"
+      }
+    ],
+    "name": "Int88SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int88[]",
+        "name": "intSlice",
+        "type": "int88[]"
+      }
+    ],
+    "name": "Int88SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int8[3]",
+        "name": "intArray",
+        "type": "int8[3]"
+      }
+    ],
+    "name": "Int8ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int8[3]",
+        "name": "intArray",
+        "type": "int8[3]"
+      }
+    ],
+    "name": "Int8ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int8",
+        "name": "val",
+        "type": "int8"
+      }
+    ],
+    "name": "Int8Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int8",
+        "name": "val",
+        "type": "int8"
+      }
+    ],
+    "name": "Int8EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int8[]",
+        "name": "intSlice",
+        "type": "int8[]"
+      }
+    ],
+    "name": "Int8SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int8[]",
+        "name": "intSlice",
+        "type": "int8[]"
+      }
+    ],
+    "name": "Int8SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int96[3]",
+        "name": "intArray",
+        "type": "int96[3]"
+      }
+    ],
+    "name": "Int96ArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int96[3]",
+        "name": "intArray",
+        "type": "int96[3]"
+      }
+    ],
+    "name": "Int96ArrayEventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int96",
+        "name": "val",
+        "type": "int96"
+      }
+    ],
+    "name": "Int96Event",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int96",
+        "name": "val",
+        "type": "int96"
+      }
+    ],
+    "name": "Int96EventIndexed",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int96[]",
+        "name": "intSlice",
+        "type": "int96[]"
+      }
+    ],
+    "name": "Int96SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int96[]",
+        "name": "intSlice",
+        "type": "int96[]"
+      }
+    ],
+    "name": "Int96SliceEventIndexed",
+    "type": "event"
+  },
+  {
+    "inputs": [],
+    "name": "emitIntArrayEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitIntArrayIndexedEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitIntEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitIntIndexedEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitIntSliceEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "emitIntSliceIndexedEvents",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]

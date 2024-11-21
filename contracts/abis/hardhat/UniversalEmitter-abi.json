@@ -1,0 +1,2552 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8[3]",
+            "name": "v1",
+            "type": "uint8[3]"
+          },
+          {
+            "internalType": "uint64[3]",
+            "name": "v2",
+            "type": "uint64[3]"
+          },
+          {
+            "internalType": "uint256[3]",
+            "name": "v3",
+            "type": "uint256[3]"
+          },
+          {
+            "internalType": "int8[3]",
+            "name": "v4",
+            "type": "int8[3]"
+          },
+          {
+            "internalType": "int64[3]",
+            "name": "v5",
+            "type": "int64[3]"
+          },
+          {
+            "internalType": "int256[3]",
+            "name": "v6",
+            "type": "int256[3]"
+          },
+          {
+            "internalType": "string[3]",
+            "name": "v7",
+            "type": "string[3]"
+          },
+          {
+            "internalType": "bytes[3]",
+            "name": "v8",
+            "type": "bytes[3]"
+          },
+          {
+            "internalType": "bytes1[3]",
+            "name": "v9",
+            "type": "bytes1[3]"
+          },
+          {
+            "internalType": "bytes16[3]",
+            "name": "v10",
+            "type": "bytes16[3]"
+          },
+          {
+            "internalType": "bytes32[3]",
+            "name": "v11",
+            "type": "bytes32[3]"
+          },
+          {
+            "internalType": "bool[3]",
+            "name": "v12",
+            "type": "bool[3]"
+          },
+          {
+            "internalType": "enum UniversalEmitter.Enum[3]",
+            "name": "v13",
+            "type": "uint8[3]"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct UniversalEmitter.ArrayStruct",
+        "name": "v1",
+        "type": "tuple"
+      }
+    ],
+    "name": "ArrayStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool[3]",
+        "name": "v1",
+        "type": "bool[3]"
+      }
+    ],
+    "name": "BoolArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool",
+        "name": "v1",
+        "type": "bool"
+      }
+    ],
+    "name": "BoolEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bool",
+        "name": "v1",
+        "type": "bool"
+      }
+    ],
+    "name": "BoolIndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bool[]",
+        "name": "v1",
+        "type": "bool[]"
+      }
+    ],
+    "name": "BoolSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes[3]",
+        "name": "v1",
+        "type": "bytes[3]"
+      }
+    ],
+    "name": "BytesArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes",
+        "name": "v1",
+        "type": "bytes"
+      }
+    ],
+    "name": "BytesEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes",
+        "name": "v1",
+        "type": "bytes"
+      }
+    ],
+    "name": "BytesIndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes1[3]",
+        "name": "v1",
+        "type": "bytes1[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes16[3]",
+        "name": "v2",
+        "type": "bytes16[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes32[3]",
+        "name": "v3",
+        "type": "bytes32[3]"
+      }
+    ],
+    "name": "BytesSizesArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes1",
+        "name": "v1",
+        "type": "bytes1"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes16",
+        "name": "v2",
+        "type": "bytes16"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes32",
+        "name": "v3",
+        "type": "bytes32"
+      }
+    ],
+    "name": "BytesSizesEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "bytes1",
+        "name": "v1",
+        "type": "bytes1"
+      },
+      {
+        "indexed": true,
+        "internalType": "bytes16",
+        "name": "v2",
+        "type": "bytes16"
+      },
+      {
+        "indexed": true,
+        "internalType": "bytes32",
+        "name": "v3",
+        "type": "bytes32"
+      }
+    ],
+    "name": "BytesSizesIndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes1[]",
+        "name": "v1",
+        "type": "bytes1[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes16[]",
+        "name": "v2",
+        "type": "bytes16[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "bytes32[]",
+        "name": "v3",
+        "type": "bytes32[]"
+      }
+    ],
+    "name": "BytesSizesSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "bytes[]",
+        "name": "v1",
+        "type": "bytes[]"
+      }
+    ],
+    "name": "BytesSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "enum UniversalEmitter.Enum[3]",
+        "name": "v1",
+        "type": "uint8[3]"
+      }
+    ],
+    "name": "EnumArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "enum UniversalEmitter.Enum",
+        "name": "v1",
+        "type": "uint8"
+      }
+    ],
+    "name": "EnumEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "enum UniversalEmitter.Enum",
+        "name": "v",
+        "type": "uint8"
+      }
+    ],
+    "name": "EnumIndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "enum UniversalEmitter.Enum[]",
+        "name": "v1",
+        "type": "uint8[]"
+      }
+    ],
+    "name": "EnumSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int8[3]",
+        "name": "v1",
+        "type": "int8[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int16[3]",
+        "name": "v2",
+        "type": "int16[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int24[3]",
+        "name": "v3",
+        "type": "int24[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int32[3]",
+        "name": "v4",
+        "type": "int32[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int40[3]",
+        "name": "v5",
+        "type": "int40[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int48[3]",
+        "name": "v6",
+        "type": "int48[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int56[3]",
+        "name": "v7",
+        "type": "int56[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int64[3]",
+        "name": "v8",
+        "type": "int64[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int256[3]",
+        "name": "v9",
+        "type": "int256[3]"
+      }
+    ],
+    "name": "IntArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int8",
+        "name": "v1",
+        "type": "int8"
+      },
+      {
+        "indexed": false,
+        "internalType": "int16",
+        "name": "v2",
+        "type": "int16"
+      },
+      {
+        "indexed": false,
+        "internalType": "int24",
+        "name": "v3",
+        "type": "int24"
+      },
+      {
+        "indexed": false,
+        "internalType": "int32",
+        "name": "v4",
+        "type": "int32"
+      },
+      {
+        "indexed": false,
+        "internalType": "int40",
+        "name": "v5",
+        "type": "int40"
+      },
+      {
+        "indexed": false,
+        "internalType": "int48",
+        "name": "v6",
+        "type": "int48"
+      },
+      {
+        "indexed": false,
+        "internalType": "int56",
+        "name": "v7",
+        "type": "int56"
+      },
+      {
+        "indexed": false,
+        "internalType": "int64",
+        "name": "v8",
+        "type": "int64"
+      },
+      {
+        "indexed": false,
+        "internalType": "int256",
+        "name": "v9",
+        "type": "int256"
+      }
+    ],
+    "name": "IntEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int8",
+        "name": "v1",
+        "type": "int8"
+      },
+      {
+        "indexed": true,
+        "internalType": "int16",
+        "name": "v2",
+        "type": "int16"
+      },
+      {
+        "indexed": true,
+        "internalType": "int24",
+        "name": "v3",
+        "type": "int24"
+      }
+    ],
+    "name": "IntGroup1IndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int8[]",
+        "name": "v1",
+        "type": "int8[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int16[]",
+        "name": "v2",
+        "type": "int16[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int24[]",
+        "name": "v3",
+        "type": "int24[]"
+      }
+    ],
+    "name": "IntGroup1SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int32",
+        "name": "v1",
+        "type": "int32"
+      },
+      {
+        "indexed": true,
+        "internalType": "int40",
+        "name": "v2",
+        "type": "int40"
+      },
+      {
+        "indexed": true,
+        "internalType": "int48",
+        "name": "v3",
+        "type": "int48"
+      }
+    ],
+    "name": "IntGroup2IndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int32[]",
+        "name": "v1",
+        "type": "int32[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int40[]",
+        "name": "v2",
+        "type": "int40[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int48[]",
+        "name": "v3",
+        "type": "int48[]"
+      }
+    ],
+    "name": "IntGroup2SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "int56",
+        "name": "v1",
+        "type": "int56"
+      },
+      {
+        "indexed": true,
+        "internalType": "int64",
+        "name": "v2",
+        "type": "int64"
+      },
+      {
+        "indexed": true,
+        "internalType": "int256",
+        "name": "v3",
+        "type": "int256"
+      }
+    ],
+    "name": "IntGroup3IndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "int56[]",
+        "name": "v1",
+        "type": "int56[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int64[]",
+        "name": "v2",
+        "type": "int64[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "int256[]",
+        "name": "v3",
+        "type": "int256[]"
+      }
+    ],
+    "name": "IntGroup3SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "internalType": "uint8",
+                "name": "v1",
+                "type": "uint8"
+              },
+              {
+                "internalType": "uint64",
+                "name": "v2",
+                "type": "uint64"
+              },
+              {
+                "internalType": "uint256",
+                "name": "v3",
+                "type": "uint256"
+              },
+              {
+                "internalType": "int8",
+                "name": "v4",
+                "type": "int8"
+              },
+              {
+                "internalType": "int64",
+                "name": "v5",
+                "type": "int64"
+              },
+              {
+                "internalType": "int256",
+                "name": "v6",
+                "type": "int256"
+              },
+              {
+                "internalType": "string",
+                "name": "v7",
+                "type": "string"
+              },
+              {
+                "internalType": "bytes",
+                "name": "v8",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes1",
+                "name": "v9",
+                "type": "bytes1"
+              },
+              {
+                "internalType": "bytes16",
+                "name": "v10",
+                "type": "bytes16"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "v11",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "bool",
+                "name": "v12",
+                "type": "bool"
+              },
+              {
+                "internalType": "enum UniversalEmitter.Enum",
+                "name": "v13",
+                "type": "uint8"
+              }
+            ],
+            "internalType": "struct UniversalEmitter.SimpleStruct",
+            "name": "simpleStruct",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint8[3]",
+                "name": "v1",
+                "type": "uint8[3]"
+              },
+              {
+                "internalType": "uint64[3]",
+                "name": "v2",
+                "type": "uint64[3]"
+              },
+              {
+                "internalType": "uint256[3]",
+                "name": "v3",
+                "type": "uint256[3]"
+              },
+              {
+                "internalType": "int8[3]",
+                "name": "v4",
+                "type": "int8[3]"
+              },
+              {
+                "internalType": "int64[3]",
+                "name": "v5",
+                "type": "int64[3]"
+              },
+              {
+                "internalType": "int256[3]",
+                "name": "v6",
+                "type": "int256[3]"
+              },
+              {
+                "internalType": "string[3]",
+                "name": "v7",
+                "type": "string[3]"
+              },
+              {
+                "internalType": "bytes[3]",
+                "name": "v8",
+                "type": "bytes[3]"
+              },
+              {
+                "internalType": "bytes1[3]",
+                "name": "v9",
+                "type": "bytes1[3]"
+              },
+              {
+                "internalType": "bytes16[3]",
+                "name": "v10",
+                "type": "bytes16[3]"
+              },
+              {
+                "internalType": "bytes32[3]",
+                "name": "v11",
+                "type": "bytes32[3]"
+              },
+              {
+                "internalType": "bool[3]",
+                "name": "v12",
+                "type": "bool[3]"
+              },
+              {
+                "internalType": "enum UniversalEmitter.Enum[3]",
+                "name": "v13",
+                "type": "uint8[3]"
+              }
+            ],
+            "internalType": "struct UniversalEmitter.ArrayStruct",
+            "name": "arrayStruct",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint8[]",
+                "name": "v1",
+                "type": "uint8[]"
+              },
+              {
+                "internalType": "uint64[]",
+                "name": "v2",
+                "type": "uint64[]"
+              },
+              {
+                "internalType": "uint256[]",
+                "name": "v3",
+                "type": "uint256[]"
+              },
+              {
+                "internalType": "int8[]",
+                "name": "v4",
+                "type": "int8[]"
+              },
+              {
+                "internalType": "int64[]",
+                "name": "v5",
+                "type": "int64[]"
+              },
+              {
+                "internalType": "int256[]",
+                "name": "v6",
+                "type": "int256[]"
+              },
+              {
+                "internalType": "string[]",
+                "name": "v7",
+                "type": "string[]"
+              },
+              {
+                "internalType": "bytes[]",
+                "name": "v8",
+                "type": "bytes[]"
+              },
+              {
+                "internalType": "bytes1[]",
+                "name": "v9",
+                "type": "bytes1[]"
+              },
+              {
+                "internalType": "bytes16[]",
+                "name": "v10",
+                "type": "bytes16[]"
+              },
+              {
+                "internalType": "bytes32[]",
+                "name": "v11",
+                "type": "bytes32[]"
+              },
+              {
+                "internalType": "bool[]",
+                "name": "v12",
+                "type": "bool[]"
+              },
+              {
+                "internalType": "enum UniversalEmitter.Enum[]",
+                "name": "v13",
+                "type": "uint8[]"
+              }
+            ],
+            "internalType": "struct UniversalEmitter.SliceStruct",
+            "name": "sliceStruct",
+            "type": "tuple"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct UniversalEmitter.NestedStruct",
+        "name": "v1",
+        "type": "tuple"
+      }
+    ],
+    "name": "NestedStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8",
+            "name": "v1",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint64",
+            "name": "v2",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint256",
+            "name": "v3",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int8",
+            "name": "v4",
+            "type": "int8"
+          },
+          {
+            "internalType": "int64",
+            "name": "v5",
+            "type": "int64"
+          },
+          {
+            "internalType": "int256",
+            "name": "v6",
+            "type": "int256"
+          },
+          {
+            "internalType": "string",
+            "name": "v7",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "v8",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes1",
+            "name": "v9",
+            "type": "bytes1"
+          },
+          {
+            "internalType": "bytes16",
+            "name": "v10",
+            "type": "bytes16"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "v11",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bool",
+            "name": "v12",
+            "type": "bool"
+          },
+          {
+            "internalType": "enum UniversalEmitter.Enum",
+            "name": "v13",
+            "type": "uint8"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct UniversalEmitter.SimpleStruct",
+        "name": "v1",
+        "type": "tuple"
+      }
+    ],
+    "name": "SimpleStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8[]",
+            "name": "v1",
+            "type": "uint8[]"
+          },
+          {
+            "internalType": "uint64[]",
+            "name": "v2",
+            "type": "uint64[]"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "v3",
+            "type": "uint256[]"
+          },
+          {
+            "internalType": "int8[]",
+            "name": "v4",
+            "type": "int8[]"
+          },
+          {
+            "internalType": "int64[]",
+            "name": "v5",
+            "type": "int64[]"
+          },
+          {
+            "internalType": "int256[]",
+            "name": "v6",
+            "type": "int256[]"
+          },
+          {
+            "internalType": "string[]",
+            "name": "v7",
+            "type": "string[]"
+          },
+          {
+            "internalType": "bytes[]",
+            "name": "v8",
+            "type": "bytes[]"
+          },
+          {
+            "internalType": "bytes1[]",
+            "name": "v9",
+            "type": "bytes1[]"
+          },
+          {
+            "internalType": "bytes16[]",
+            "name": "v10",
+            "type": "bytes16[]"
+          },
+          {
+            "internalType": "bytes32[]",
+            "name": "v11",
+            "type": "bytes32[]"
+          },
+          {
+            "internalType": "bool[]",
+            "name": "v12",
+            "type": "bool[]"
+          },
+          {
+            "internalType": "enum UniversalEmitter.Enum[]",
+            "name": "v13",
+            "type": "uint8[]"
+          }
+        ],
+        "indexed": false,
+        "internalType": "struct UniversalEmitter.SliceStruct",
+        "name": "v1",
+        "type": "tuple"
+      }
+    ],
+    "name": "SliceStructEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string[3]",
+        "name": "v1",
+        "type": "string[3]"
+      }
+    ],
+    "name": "StringArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "v1",
+        "type": "string"
+      }
+    ],
+    "name": "StringEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "string",
+        "name": "v1",
+        "type": "string"
+      }
+    ],
+    "name": "StringIndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string[]",
+        "name": "v1",
+        "type": "string[]"
+      }
+    ],
+    "name": "StringSliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint8[3]",
+        "name": "v1",
+        "type": "uint8[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint16[3]",
+        "name": "v2",
+        "type": "uint16[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint24[3]",
+        "name": "v3",
+        "type": "uint24[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint32[3]",
+        "name": "v4",
+        "type": "uint32[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint40[3]",
+        "name": "v5",
+        "type": "uint40[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint48[3]",
+        "name": "v6",
+        "type": "uint48[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint56[3]",
+        "name": "v7",
+        "type": "uint56[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64[3]",
+        "name": "v8",
+        "type": "uint64[3]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256[3]",
+        "name": "v9",
+        "type": "uint256[3]"
+      }
+    ],
+    "name": "UIntArrayEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint8",
+        "name": "v1",
+        "type": "uint8"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint16",
+        "name": "v2",
+        "type": "uint16"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint24",
+        "name": "v3",
+        "type": "uint24"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint32",
+        "name": "v4",
+        "type": "uint32"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint40",
+        "name": "v5",
+        "type": "uint40"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint48",
+        "name": "v6",
+        "type": "uint48"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint56",
+        "name": "v7",
+        "type": "uint56"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64",
+        "name": "v8",
+        "type": "uint64"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "v9",
+        "type": "uint256"
+      }
+    ],
+    "name": "UIntEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint8",
+        "name": "v1",
+        "type": "uint8"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint16",
+        "name": "v2",
+        "type": "uint16"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint24",
+        "name": "v3",
+        "type": "uint24"
+      }
+    ],
+    "name": "UIntGroup1IndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint8[]",
+        "name": "v1",
+        "type": "uint8[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint16[]",
+        "name": "v2",
+        "type": "uint16[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint24[]",
+        "name": "v3",
+        "type": "uint24[]"
+      }
+    ],
+    "name": "UIntGroup1SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint32",
+        "name": "v1",
+        "type": "uint32"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint40",
+        "name": "v2",
+        "type": "uint40"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint48",
+        "name": "v3",
+        "type": "uint48"
+      }
+    ],
+    "name": "UIntGroup2IndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint32[]",
+        "name": "v1",
+        "type": "uint32[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint40[]",
+        "name": "v2",
+        "type": "uint40[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint48[]",
+        "name": "v3",
+        "type": "uint48[]"
+      }
+    ],
+    "name": "UIntGroup2SliceEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "uint56",
+        "name": "v1",
+        "type": "uint56"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint64",
+        "name": "v2",
+        "type": "uint64"
+      },
+      {
+        "indexed": true,
+        "internalType": "uint256",
+        "name": "v3",
+        "type": "uint256"
+      }
+    ],
+    "name": "UIntGroup3IndexedEvent",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "uint56[]",
+        "name": "v1",
+        "type": "uint56[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint64[]",
+        "name": "v2",
+        "type": "uint64[]"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256[]",
+        "name": "v3",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "UIntGroup3SliceEvent",
+    "type": "event"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8[3]",
+            "name": "v1",
+            "type": "uint8[3]"
+          },
+          {
+            "internalType": "uint64[3]",
+            "name": "v2",
+            "type": "uint64[3]"
+          },
+          {
+            "internalType": "uint256[3]",
+            "name": "v3",
+            "type": "uint256[3]"
+          },
+          {
+            "internalType": "int8[3]",
+            "name": "v4",
+            "type": "int8[3]"
+          },
+          {
+            "internalType": "int64[3]",
+            "name": "v5",
+            "type": "int64[3]"
+          },
+          {
+            "internalType": "int256[3]",
+            "name": "v6",
+            "type": "int256[3]"
+          },
+          {
+            "internalType": "string[3]",
+            "name": "v7",
+            "type": "string[3]"
+          },
+          {
+            "internalType": "bytes[3]",
+            "name": "v8",
+            "type": "bytes[3]"
+          },
+          {
+            "internalType": "bytes1[3]",
+            "name": "v9",
+            "type": "bytes1[3]"
+          },
+          {
+            "internalType": "bytes16[3]",
+            "name": "v10",
+            "type": "bytes16[3]"
+          },
+          {
+            "internalType": "bytes32[3]",
+            "name": "v11",
+            "type": "bytes32[3]"
+          },
+          {
+            "internalType": "bool[3]",
+            "name": "v12",
+            "type": "bool[3]"
+          },
+          {
+            "internalType": "enum UniversalEmitter.Enum[3]",
+            "name": "v13",
+            "type": "uint8[3]"
+          }
+        ],
+        "internalType": "struct UniversalEmitter.ArrayStruct",
+        "name": "v1",
+        "type": "tuple"
+      }
+    ],
+    "name": "emitArrayStructEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bool[3]",
+        "name": "v1",
+        "type": "bool[3]"
+      }
+    ],
+    "name": "emitBoolArrayEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "v1",
+        "type": "bool"
+      }
+    ],
+    "name": "emitBoolEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bool",
+        "name": "v1",
+        "type": "bool"
+      }
+    ],
+    "name": "emitBoolIndexedEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bool[]",
+        "name": "v1",
+        "type": "bool[]"
+      }
+    ],
+    "name": "emitBoolSliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes[3]",
+        "name": "v1",
+        "type": "bytes[3]"
+      }
+    ],
+    "name": "emitBytesArrayEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "v1",
+        "type": "bytes"
+      }
+    ],
+    "name": "emitBytesEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes",
+        "name": "v1",
+        "type": "bytes"
+      }
+    ],
+    "name": "emitBytesIndexedEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes1[3]",
+        "name": "v1",
+        "type": "bytes1[3]"
+      },
+      {
+        "internalType": "bytes16[3]",
+        "name": "v2",
+        "type": "bytes16[3]"
+      },
+      {
+        "internalType": "bytes32[3]",
+        "name": "v3",
+        "type": "bytes32[3]"
+      }
+    ],
+    "name": "emitBytesSizesArrayEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes1",
+        "name": "v1",
+        "type": "bytes1"
+      },
+      {
+        "internalType": "bytes16",
+        "name": "v2",
+        "type": "bytes16"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "v3",
+        "type": "bytes32"
+      }
+    ],
+    "name": "emitBytesSizesEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes1",
+        "name": "v1",
+        "type": "bytes1"
+      },
+      {
+        "internalType": "bytes16",
+        "name": "v2",
+        "type": "bytes16"
+      },
+      {
+        "internalType": "bytes32",
+        "name": "v3",
+        "type": "bytes32"
+      }
+    ],
+    "name": "emitBytesSizesIndexedEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes1[]",
+        "name": "v1",
+        "type": "bytes1[]"
+      },
+      {
+        "internalType": "bytes16[]",
+        "name": "v2",
+        "type": "bytes16[]"
+      },
+      {
+        "internalType": "bytes32[]",
+        "name": "v3",
+        "type": "bytes32[]"
+      }
+    ],
+    "name": "emitBytesSizesSliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "bytes[]",
+        "name": "v1",
+        "type": "bytes[]"
+      }
+    ],
+    "name": "emitBytesSliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "enum UniversalEmitter.Enum[3]",
+        "name": "v1",
+        "type": "uint8[3]"
+      }
+    ],
+    "name": "emitEnumArrayEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "enum UniversalEmitter.Enum",
+        "name": "v1",
+        "type": "uint8"
+      }
+    ],
+    "name": "emitEnumEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "enum UniversalEmitter.Enum",
+        "name": "v1",
+        "type": "uint8"
+      }
+    ],
+    "name": "emitEnumIndexedEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "enum UniversalEmitter.Enum[]",
+        "name": "v1",
+        "type": "uint8[]"
+      }
+    ],
+    "name": "emitEnumSliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int8[3]",
+        "name": "v1",
+        "type": "int8[3]"
+      },
+      {
+        "internalType": "int16[3]",
+        "name": "v2",
+        "type": "int16[3]"
+      },
+      {
+        "internalType": "int24[3]",
+        "name": "v3",
+        "type": "int24[3]"
+      },
+      {
+        "internalType": "int32[3]",
+        "name": "v4",
+        "type": "int32[3]"
+      },
+      {
+        "internalType": "int40[3]",
+        "name": "v5",
+        "type": "int40[3]"
+      },
+      {
+        "internalType": "int48[3]",
+        "name": "v6",
+        "type": "int48[3]"
+      },
+      {
+        "internalType": "int56[3]",
+        "name": "v7",
+        "type": "int56[3]"
+      },
+      {
+        "internalType": "int64[3]",
+        "name": "v8",
+        "type": "int64[3]"
+      },
+      {
+        "internalType": "int256[3]",
+        "name": "v9",
+        "type": "int256[3]"
+      }
+    ],
+    "name": "emitIntArrayEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int8",
+        "name": "v1",
+        "type": "int8"
+      },
+      {
+        "internalType": "int16",
+        "name": "v2",
+        "type": "int16"
+      },
+      {
+        "internalType": "int24",
+        "name": "v3",
+        "type": "int24"
+      },
+      {
+        "internalType": "int32",
+        "name": "v4",
+        "type": "int32"
+      },
+      {
+        "internalType": "int40",
+        "name": "v5",
+        "type": "int40"
+      },
+      {
+        "internalType": "int48",
+        "name": "v6",
+        "type": "int48"
+      },
+      {
+        "internalType": "int56",
+        "name": "v7",
+        "type": "int56"
+      },
+      {
+        "internalType": "int64",
+        "name": "v8",
+        "type": "int64"
+      },
+      {
+        "internalType": "int256",
+        "name": "v9",
+        "type": "int256"
+      }
+    ],
+    "name": "emitIntEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int8[]",
+        "name": "v1",
+        "type": "int8[]"
+      },
+      {
+        "internalType": "int16[]",
+        "name": "v2",
+        "type": "int16[]"
+      },
+      {
+        "internalType": "int24[]",
+        "name": "v3",
+        "type": "int24[]"
+      }
+    ],
+    "name": "emitIntGroup1SliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int32[]",
+        "name": "v1",
+        "type": "int32[]"
+      },
+      {
+        "internalType": "int40[]",
+        "name": "v2",
+        "type": "int40[]"
+      },
+      {
+        "internalType": "int48[]",
+        "name": "v3",
+        "type": "int48[]"
+      }
+    ],
+    "name": "emitIntGroup2SliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int56[]",
+        "name": "v1",
+        "type": "int56[]"
+      },
+      {
+        "internalType": "int64[]",
+        "name": "v2",
+        "type": "int64[]"
+      },
+      {
+        "internalType": "int256[]",
+        "name": "v3",
+        "type": "int256[]"
+      }
+    ],
+    "name": "emitIntGroup3SliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "int8",
+        "name": "v1",
+        "type": "int8"
+      },
+      {
+        "internalType": "int16",
+        "name": "v2",
+        "type": "int16"
+      },
+      {
+        "internalType": "int24",
+        "name": "v3",
+        "type": "int24"
+      },
+      {
+        "internalType": "int32",
+        "name": "v4",
+        "type": "int32"
+      },
+      {
+        "internalType": "int40",
+        "name": "v5",
+        "type": "int40"
+      },
+      {
+        "internalType": "int48",
+        "name": "v6",
+        "type": "int48"
+      },
+      {
+        "internalType": "int56",
+        "name": "v7",
+        "type": "int56"
+      },
+      {
+        "internalType": "int64",
+        "name": "v8",
+        "type": "int64"
+      },
+      {
+        "internalType": "int256",
+        "name": "v9",
+        "type": "int256"
+      }
+    ],
+    "name": "emitIntIndexedEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "components": [
+              {
+                "internalType": "uint8",
+                "name": "v1",
+                "type": "uint8"
+              },
+              {
+                "internalType": "uint64",
+                "name": "v2",
+                "type": "uint64"
+              },
+              {
+                "internalType": "uint256",
+                "name": "v3",
+                "type": "uint256"
+              },
+              {
+                "internalType": "int8",
+                "name": "v4",
+                "type": "int8"
+              },
+              {
+                "internalType": "int64",
+                "name": "v5",
+                "type": "int64"
+              },
+              {
+                "internalType": "int256",
+                "name": "v6",
+                "type": "int256"
+              },
+              {
+                "internalType": "string",
+                "name": "v7",
+                "type": "string"
+              },
+              {
+                "internalType": "bytes",
+                "name": "v8",
+                "type": "bytes"
+              },
+              {
+                "internalType": "bytes1",
+                "name": "v9",
+                "type": "bytes1"
+              },
+              {
+                "internalType": "bytes16",
+                "name": "v10",
+                "type": "bytes16"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "v11",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "bool",
+                "name": "v12",
+                "type": "bool"
+              },
+              {
+                "internalType": "enum UniversalEmitter.Enum",
+                "name": "v13",
+                "type": "uint8"
+              }
+            ],
+            "internalType": "struct UniversalEmitter.SimpleStruct",
+            "name": "simpleStruct",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint8[3]",
+                "name": "v1",
+                "type": "uint8[3]"
+              },
+              {
+                "internalType": "uint64[3]",
+                "name": "v2",
+                "type": "uint64[3]"
+              },
+              {
+                "internalType": "uint256[3]",
+                "name": "v3",
+                "type": "uint256[3]"
+              },
+              {
+                "internalType": "int8[3]",
+                "name": "v4",
+                "type": "int8[3]"
+              },
+              {
+                "internalType": "int64[3]",
+                "name": "v5",
+                "type": "int64[3]"
+              },
+              {
+                "internalType": "int256[3]",
+                "name": "v6",
+                "type": "int256[3]"
+              },
+              {
+                "internalType": "string[3]",
+                "name": "v7",
+                "type": "string[3]"
+              },
+              {
+                "internalType": "bytes[3]",
+                "name": "v8",
+                "type": "bytes[3]"
+              },
+              {
+                "internalType": "bytes1[3]",
+                "name": "v9",
+                "type": "bytes1[3]"
+              },
+              {
+                "internalType": "bytes16[3]",
+                "name": "v10",
+                "type": "bytes16[3]"
+              },
+              {
+                "internalType": "bytes32[3]",
+                "name": "v11",
+                "type": "bytes32[3]"
+              },
+              {
+                "internalType": "bool[3]",
+                "name": "v12",
+                "type": "bool[3]"
+              },
+              {
+                "internalType": "enum UniversalEmitter.Enum[3]",
+                "name": "v13",
+                "type": "uint8[3]"
+              }
+            ],
+            "internalType": "struct UniversalEmitter.ArrayStruct",
+            "name": "arrayStruct",
+            "type": "tuple"
+          },
+          {
+            "components": [
+              {
+                "internalType": "uint8[]",
+                "name": "v1",
+                "type": "uint8[]"
+              },
+              {
+                "internalType": "uint64[]",
+                "name": "v2",
+                "type": "uint64[]"
+              },
+              {
+                "internalType": "uint256[]",
+                "name": "v3",
+                "type": "uint256[]"
+              },
+              {
+                "internalType": "int8[]",
+                "name": "v4",
+                "type": "int8[]"
+              },
+              {
+                "internalType": "int64[]",
+                "name": "v5",
+                "type": "int64[]"
+              },
+              {
+                "internalType": "int256[]",
+                "name": "v6",
+                "type": "int256[]"
+              },
+              {
+                "internalType": "string[]",
+                "name": "v7",
+                "type": "string[]"
+              },
+              {
+                "internalType": "bytes[]",
+                "name": "v8",
+                "type": "bytes[]"
+              },
+              {
+                "internalType": "bytes1[]",
+                "name": "v9",
+                "type": "bytes1[]"
+              },
+              {
+                "internalType": "bytes16[]",
+                "name": "v10",
+                "type": "bytes16[]"
+              },
+              {
+                "internalType": "bytes32[]",
+                "name": "v11",
+                "type": "bytes32[]"
+              },
+              {
+                "internalType": "bool[]",
+                "name": "v12",
+                "type": "bool[]"
+              },
+              {
+                "internalType": "enum UniversalEmitter.Enum[]",
+                "name": "v13",
+                "type": "uint8[]"
+              }
+            ],
+            "internalType": "struct UniversalEmitter.SliceStruct",
+            "name": "sliceStruct",
+            "type": "tuple"
+          }
+        ],
+        "internalType": "struct UniversalEmitter.NestedStruct",
+        "name": "v1",
+        "type": "tuple"
+      }
+    ],
+    "name": "emitNestedStructEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8",
+            "name": "v1",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint64",
+            "name": "v2",
+            "type": "uint64"
+          },
+          {
+            "internalType": "uint256",
+            "name": "v3",
+            "type": "uint256"
+          },
+          {
+            "internalType": "int8",
+            "name": "v4",
+            "type": "int8"
+          },
+          {
+            "internalType": "int64",
+            "name": "v5",
+            "type": "int64"
+          },
+          {
+            "internalType": "int256",
+            "name": "v6",
+            "type": "int256"
+          },
+          {
+            "internalType": "string",
+            "name": "v7",
+            "type": "string"
+          },
+          {
+            "internalType": "bytes",
+            "name": "v8",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes1",
+            "name": "v9",
+            "type": "bytes1"
+          },
+          {
+            "internalType": "bytes16",
+            "name": "v10",
+            "type": "bytes16"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "v11",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bool",
+            "name": "v12",
+            "type": "bool"
+          },
+          {
+            "internalType": "enum UniversalEmitter.Enum",
+            "name": "v13",
+            "type": "uint8"
+          }
+        ],
+        "internalType": "struct UniversalEmitter.SimpleStruct",
+        "name": "v1",
+        "type": "tuple"
+      }
+    ],
+    "name": "emitSimpleStructEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "components": [
+          {
+            "internalType": "uint8[]",
+            "name": "v1",
+            "type": "uint8[]"
+          },
+          {
+            "internalType": "uint64[]",
+            "name": "v2",
+            "type": "uint64[]"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "v3",
+            "type": "uint256[]"
+          },
+          {
+            "internalType": "int8[]",
+            "name": "v4",
+            "type": "int8[]"
+          },
+          {
+            "internalType": "int64[]",
+            "name": "v5",
+            "type": "int64[]"
+          },
+          {
+            "internalType": "int256[]",
+            "name": "v6",
+            "type": "int256[]"
+          },
+          {
+            "internalType": "string[]",
+            "name": "v7",
+            "type": "string[]"
+          },
+          {
+            "internalType": "bytes[]",
+            "name": "v8",
+            "type": "bytes[]"
+          },
+          {
+            "internalType": "bytes1[]",
+            "name": "v9",
+            "type": "bytes1[]"
+          },
+          {
+            "internalType": "bytes16[]",
+            "name": "v10",
+            "type": "bytes16[]"
+          },
+          {
+            "internalType": "bytes32[]",
+            "name": "v11",
+            "type": "bytes32[]"
+          },
+          {
+            "internalType": "bool[]",
+            "name": "v12",
+            "type": "bool[]"
+          },
+          {
+            "internalType": "enum UniversalEmitter.Enum[]",
+            "name": "v13",
+            "type": "uint8[]"
+          }
+        ],
+        "internalType": "struct UniversalEmitter.SliceStruct",
+        "name": "v1",
+        "type": "tuple"
+      }
+    ],
+    "name": "emitSliceStructEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string[3]",
+        "name": "v1",
+        "type": "string[3]"
+      }
+    ],
+    "name": "emitStringArrayEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "v1",
+        "type": "string"
+      }
+    ],
+    "name": "emitStringEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "v1",
+        "type": "string"
+      }
+    ],
+    "name": "emitStringIndexedEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string[]",
+        "name": "v1",
+        "type": "string[]"
+      }
+    ],
+    "name": "emitStringSliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint8[3]",
+        "name": "v1",
+        "type": "uint8[3]"
+      },
+      {
+        "internalType": "uint16[3]",
+        "name": "v2",
+        "type": "uint16[3]"
+      },
+      {
+        "internalType": "uint24[3]",
+        "name": "v3",
+        "type": "uint24[3]"
+      },
+      {
+        "internalType": "uint32[3]",
+        "name": "v4",
+        "type": "uint32[3]"
+      },
+      {
+        "internalType": "uint40[3]",
+        "name": "v5",
+        "type": "uint40[3]"
+      },
+      {
+        "internalType": "uint48[3]",
+        "name": "v6",
+        "type": "uint48[3]"
+      },
+      {
+        "internalType": "uint56[3]",
+        "name": "v7",
+        "type": "uint56[3]"
+      },
+      {
+        "internalType": "uint64[3]",
+        "name": "v8",
+        "type": "uint64[3]"
+      },
+      {
+        "internalType": "uint256[3]",
+        "name": "v9",
+        "type": "uint256[3]"
+      }
+    ],
+    "name": "emitUIntArrayEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint8",
+        "name": "v1",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint16",
+        "name": "v2",
+        "type": "uint16"
+      },
+      {
+        "internalType": "uint24",
+        "name": "v3",
+        "type": "uint24"
+      },
+      {
+        "internalType": "uint32",
+        "name": "v4",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint40",
+        "name": "v5",
+        "type": "uint40"
+      },
+      {
+        "internalType": "uint48",
+        "name": "v6",
+        "type": "uint48"
+      },
+      {
+        "internalType": "uint56",
+        "name": "v7",
+        "type": "uint56"
+      },
+      {
+        "internalType": "uint64",
+        "name": "v8",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint256",
+        "name": "v9",
+        "type": "uint256"
+      }
+    ],
+    "name": "emitUIntEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint8[]",
+        "name": "v1",
+        "type": "uint8[]"
+      },
+      {
+        "internalType": "uint16[]",
+        "name": "v2",
+        "type": "uint16[]"
+      },
+      {
+        "internalType": "uint24[]",
+        "name": "v3",
+        "type": "uint24[]"
+      }
+    ],
+    "name": "emitUIntGroup1SliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint32[]",
+        "name": "v1",
+        "type": "uint32[]"
+      },
+      {
+        "internalType": "uint40[]",
+        "name": "v2",
+        "type": "uint40[]"
+      },
+      {
+        "internalType": "uint48[]",
+        "name": "v3",
+        "type": "uint48[]"
+      }
+    ],
+    "name": "emitUIntGroup2SliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint56[]",
+        "name": "v1",
+        "type": "uint56[]"
+      },
+      {
+        "internalType": "uint64[]",
+        "name": "v2",
+        "type": "uint64[]"
+      },
+      {
+        "internalType": "uint256[]",
+        "name": "v3",
+        "type": "uint256[]"
+      }
+    ],
+    "name": "emitUIntGroup3SliceEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint8",
+        "name": "v1",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint16",
+        "name": "v2",
+        "type": "uint16"
+      },
+      {
+        "internalType": "uint24",
+        "name": "v3",
+        "type": "uint24"
+      },
+      {
+        "internalType": "uint32",
+        "name": "v4",
+        "type": "uint32"
+      },
+      {
+        "internalType": "uint40",
+        "name": "v5",
+        "type": "uint40"
+      },
+      {
+        "internalType": "uint48",
+        "name": "v6",
+        "type": "uint48"
+      },
+      {
+        "internalType": "uint56",
+        "name": "v7",
+        "type": "uint56"
+      },
+      {
+        "internalType": "uint64",
+        "name": "v8",
+        "type": "uint64"
+      },
+      {
+        "internalType": "uint256",
+        "name": "v9",
+        "type": "uint256"
+      }
+    ],
+    "name": "emitUIntIndexedEvent",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
