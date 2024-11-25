@@ -96,6 +96,11 @@ contract UniversalEmitter {
         Enum v13;
     }
 
+    event SimpleStructEvent(SimpleStruct s1);
+    // structure array (slice) in event
+    event SimpleStructArrayEvent(SimpleStruct[3] s1);
+    event SimpleStructSliceEvent(SimpleStruct[] s1);
+
     struct ArrayStruct {
         uint8[3] v1;
         uint64[3] v2;
@@ -112,6 +117,7 @@ contract UniversalEmitter {
         Enum[3] v13;
     }
 
+    event ArrayStructEvent(ArrayStruct s1);
     struct SliceStruct {
         uint8[] v1;
         uint64[] v2;
@@ -128,9 +134,7 @@ contract UniversalEmitter {
         Enum[] v13;
     }
 
-    event SimpleStructEvent(SimpleStruct v1);
-    event ArrayStructEvent(ArrayStruct v1);
-    event SliceStructEvent(SliceStruct v1);
+    event SliceStructEvent(SliceStruct s1);
 
     // nested struct
     struct NestedStruct {
@@ -139,7 +143,20 @@ contract UniversalEmitter {
         SliceStruct sliceStruct;
     }
 
-    event NestedStructEvent(NestedStruct v1);
+    event NestedStructEvent(NestedStruct s1);
+
+    // structure array (slice) in structure
+    struct NestedArrayStruct {
+        SimpleStruct[3] simpleStructArray;
+    }
+
+    event NestedArrayStructEvent(NestedArrayStruct s1);
+
+    struct NestedSliceStruct {
+        SimpleStruct[] simpleStructSlice;
+    }
+
+    event NestedSliceStructEvent(NestedSliceStruct s1);
 
     // emit functions
 
@@ -158,20 +175,16 @@ contract UniversalEmitter {
         emit UIntEvent(v1, v2, v3, v4, v5, v6, v7, v8, v9);
     }
 
-    function emitUIntIndexedEvent(
-        uint8 v1,
-        uint16 v2,
-        uint24 v3,
-        uint32 v4,
-        uint40 v5,
-        uint48 v6,
-        uint56 v7,
-        uint64 v8,
-        uint256 v9
-    ) external {
+    function emitUIntGroup1IndexedEvent(uint8 v1, uint16 v2, uint24 v3) external {
         emit UIntGroup1IndexedEvent(v1, v2, v3);
-        emit UIntGroup2IndexedEvent(v4, v5, v6);
-        emit UIntGroup3IndexedEvent(v7, v8, v9);
+    }
+
+    function emitUIntGroup2IndexedEvent(uint32 v1, uint40 v2, uint48 v3) external {
+        emit UIntGroup2IndexedEvent(v1, v2, v3);
+    }
+
+    function emitUIntGroup3IndexedEvent(uint56 v1, uint64 v2, uint256 v3) external {
+        emit UIntGroup3IndexedEvent(v1, v2, v3);
     }
 
     function emitUIntArrayEvent(
@@ -215,20 +228,16 @@ contract UniversalEmitter {
         emit IntEvent(v1, v2, v3, v4, v5, v6, v7, v8, v9);
     }
 
-    function emitIntIndexedEvent(
-        int8 v1,
-        int16 v2,
-        int24 v3,
-        int32 v4,
-        int40 v5,
-        int48 v6,
-        int56 v7,
-        int64 v8,
-        int256 v9
-    ) external {
+    function emitIntGroup1IndexedEvent(int8 v1, int16 v2, int24 v3) external {
         emit IntGroup1IndexedEvent(v1, v2, v3);
-        emit IntGroup2IndexedEvent(v4, v5, v6);
-        emit IntGroup3IndexedEvent(v7, v8, v9);
+    }
+
+    function emitIntGroup2IndexedEvent(int32 v1, int40 v2, int48 v3) external {
+        emit IntGroup2IndexedEvent(v1, v2, v3);
+    }
+
+    function emitIntGroup3IndexedEvent(int56 v1, int64 v2, int256 v3) external {
+        emit IntGroup3IndexedEvent(v1, v2, v3);
     }
 
     function emitIntArrayEvent(
@@ -343,20 +352,36 @@ contract UniversalEmitter {
     }
 
     // simple structs
-    function emitSimpleStructEvent(SimpleStruct calldata v1) external {
-        emit SimpleStructEvent(v1);
+    function emitSimpleStructEvent(SimpleStruct calldata s1) external {
+        emit SimpleStructEvent(s1);
     }
 
-    function emitArrayStructEvent(ArrayStruct calldata v1) external {
-        emit ArrayStructEvent(v1);
+    function emitSimpleStructArrayEvent(SimpleStruct[3] calldata s1) external {
+        emit SimpleStructArrayEvent(s1);
     }
 
-    function emitSliceStructEvent(SliceStruct calldata v1) external {
-        emit SliceStructEvent(v1);
+    function emitSimpleStructSliceEvent(SimpleStruct[] calldata s1) external {
+        emit SimpleStructSliceEvent(s1);
+    }
+
+    function emitArrayStructEvent(ArrayStruct calldata s1) external {
+        emit ArrayStructEvent(s1);
+    }
+
+    function emitSliceStructEvent(SliceStruct calldata s1) external {
+        emit SliceStructEvent(s1);
     }
 
     // nested struct
-    function emitNestedStructEvent(NestedStruct calldata v1) external {
-        emit NestedStructEvent(v1);
+    function emitNestedStructEvent(NestedStruct calldata s1) external {
+        emit NestedStructEvent(s1);
+    }
+
+    function emitNestedArrayStructEvent(NestedArrayStruct calldata s1) external {
+        emit NestedArrayStructEvent(s1);
+    }
+
+    function emitNestedSliceStructEvent(NestedSliceStruct calldata s1) external {
+        emit NestedSliceStructEvent(s1);
     }
 }
